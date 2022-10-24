@@ -156,10 +156,10 @@ header {
 
 .content{
   width: 85%;
-  margin-left: 8%;
-  margin-right: 8%;
+  margin-left: 10%;
+  margin-right: 150%;
 	padding: 40px;
- /* float: left;*/
+ float: left;
   text-align: center;
 
 
@@ -542,6 +542,10 @@ footer a, span{
 
 .cartext p{
   font-size: 8px;
+}
+
+h4{
+  font-size: 10px;
 }
 
 .cartimg{
