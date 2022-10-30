@@ -508,6 +508,10 @@ tr{
 
 
 
+.popup_close{
+  font-size: 25px;
+}
+
 
 
 
@@ -653,6 +657,10 @@ footer{
   font-style: 16px;
 }
 
+.popup_close{
+  font-size: 22px;
+}
+
 /*.carding{
   color: #4E4E4E;
   font-weight: 600;
@@ -663,7 +671,7 @@ footer{
 
 @media screen and (max-width: 767px) {
 header{
-  margin-right: 5px
+  left: 78%;
 }
 
 .bodhome{
@@ -676,7 +684,7 @@ h4{
 
 .menu{
 	left: 10%;
-	min-width: 75%;
+	min-width: 70%;
 	min-height: 90%;
 }
 
@@ -749,6 +757,10 @@ footer a, span{
 
 .culc{
   width: 75%
+}
+
+.popup_close{
+  font-size: 25px;
 }
 }
 
