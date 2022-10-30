@@ -1,0 +1,1629 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Таверна "Гримлячі Кістки"</title>
+	<link  rel="icon" href="../img/logo.png">
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+</head>
+<body>
+	<header>
+		<div class="menu-btn">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</header>
+	<div class="menu">
+		<nav>
+			<div class="bodhome">
+		   		<a href="../index.html"><img class="logo" src="../img/logo.ico" alt="logo"></a>
+		   		<div>
+		   			<h2>Таверна "Гримлячі Кістки"</h2> 
+		   			<br> 
+		   			<span>Онлайн довідник з D&D 5e</span>
+		   		</div>
+			</div>
+			<div class="bodhome">
+				<div>
+					<ul>
+						<li><h4>Персонаж</h4></li>
+						<li><a href="../Персонаж/Раси.html">Раси</a></li>
+						<li><a href="../Персонаж/Класи.html">Класи</a></li>
+						<li><a href="../Персонаж/Риси.html">Риси</a></li>
+						<li><a href="../Персонаж/Предисторії.html">Предисторії</a></li>
+						<li><a href="../Персонаж/Заклинання.html">Заклинання</a></li>
+				   </ul>
+				</div>
+				<div>
+					<ul>
+						<li><h4>Речі</h4></li>
+						<li><a href="../Речі/Зброя.html">Зброя</a></li>
+						<li><a href="../Речі/Обладунки.html">Обладунки</a></li>
+						<li><a href="../Речі/Спорядження.html">Спорядження</a></li>
+						<li><a href="../Речі/Магічні предмети.html">Магічні предмети</a></li>
+				   </ul>
+				</div>
+			</div>
+			<div class="bodhome">
+				<div>
+					<ul>
+						<li><h4>Майстерня </h4></li>
+						<li><a href="../Майстерня/Ширма.html">Ширма</a></li>
+						<li><a href="../Майстерня/Бестіарій.html">Бестіарій</a></li>
+						<li><a href="../Майстерня/Книжки.html">Книжки</a></li>
+						<li><a href="https://roll20.net/">Roll20</a></li>
+						<li><a href="https://rolladvantage.com/tokenstamp/">Розробка токенів <br>Tokenstamp</a></li>
+						<li><a href="https://inkarnate.com/maps/">Мапи Inkarnate</a></li>
+						<li><a href="https://azgaar.github.io/Fantasy-Map-Generator/">Мапи Аzgaar</a></li>
+						<li><a href="https://www.redblobgames.com/maps/mapgen4/">Мапи Mapgen4 from <br>Red Blob Games</a></li>
+						<li><a href="https://watabou.github.io/index.html">Мапи Watabou</a></li>
+						<li><a href="https://homebrewery.naturalcrit.com/">Оформення  Naturalcrit</a></li>
+				   </ul>
+				</div>
+				<div>
+					<ul>
+						<li><h4>Ми та наші друзі </h4></li>
+						<li><a href="https://www.youtube.com/channel/UCilttdHSg1t5Y3Kk7j3frhg">YouTube</a></li>
+						<li><a href="https://t.me/rumbledice">Чатик</a></li>
+						<li><a href="https://t.me/rumble_dice">Telegram</a></li>
+						<li><a href="https://discord.gg/ygTFYRvu6v">Discord</a></li>
+				   </ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+
+		<div class="content">
+				<details>
+					<summary>
+							<div class="card">
+								<p class="cardnam">Характеристики та навчики</p>
+								<p class="carding">Stats and Skills</p>
+							</div>
+					</summary>
+					<div class="contentp">
+							<a class="popup-link" href="#Rolling_for_scores">
+								<div class="card popup_link" >
+									<p class="cardnam">Прокидка характеристик</p>
+									<p class="carding">Rolling for scores</p>
+								</div>
+							</a>
+							<a class="popup-link" href="#Point_Buy">
+								<div class="card popup_link" >
+									<p class="cardnam">Покупка характеристик</p>
+									<p class="carding">Point Buy</p>
+								</div>
+							</a>
+							<a class="popup-link" href="#Standard_array">
+								<div class="card popup_link" >
+									<p class="cardnam">Стандартний набір</p>
+									<p class="carding">Standard array</p>
+								</div>
+							</a>
+							<a class="popup-link" href="#Ability_Modifier">
+								<div class="card popup_link" >
+									<p class="cardnam">Модифікатор здібностей</p>
+									<p class="carding">Ability Modifier</p>
+								</div>
+							</a>
+							<a class="popup-link" href="#Passive_Checks">
+								<div class="card popup_link" >
+									<p class="cardnam">Пасивні перевірки</p>
+									<p class="carding">Passive Checks</p>
+								</div>
+							</a>
+					</div>
+					<div class="contentp">
+									<p class="cardzam">Сила</p>
+									<p class="cardzag">Strength</p>
+							<a class="popup-link" href="#Athletics">
+								<div class="card popup_link" >
+									<p class="cardnam">Атлетика</p>
+									<p class="carding">Athletics</p>
+								</div>
+							</a>
+							<a class="popup-link" href="#Carrying_Capacity">
+								<div class="card popup_link" >
+									<p class="cardnam">Вантажопідйомність</p>
+									<p class="carding">Carrying Capacity</p>
+								</div>
+							</a>
+							<a class="popup-link" href="#Other_Strength_Checks">
+								<div class="card popup_link" >
+									<p class="cardnam">Інші перевірки сили</p>
+									<p class="carding">Other Strength Checks</p>
+								</div>
+							</a>
+							<a class="popup-link" href="#Size_and_Weight">
+								<div class="card popup_link" >
+									<p class="cardnam">Розмір і вага</p>
+									<p class="carding">Size and Weight</p>
+								</div>
+							</a>
+							<a class="popup-link" href="#Attack_and_Damage_Rolls_Stat">
+								<div class="card popup_link" >
+									<p class="cardnam">Перевірки атаки та урону</p>
+									<p class="carding">Attack and Damage Rolls Stat</p>
+								</div>
+							</a>
+							<a class="popup-link" href="#Pushing_and_Carrying">
+								<div class="card popup_link" >
+									<p class="cardnam">Штовхання та перенесення</p>
+									<p class="carding">Pushing and Carrying</p>
+								</div>
+							</a>
+					</div>
+					<div class="contentp">
+									<p class="cardzam">Спритність</p>
+									<p class="cardzag">Dexterity</p>
+							<a class="popup-link" href="#Acrobatics">
+								<div class="card popup_link" >
+									<p class="cardnam">Акробатика</p>
+									<p class="carding">Acrobatics</p>
+								</div>
+							</a>
+							<a class="popup-link" href="#Stealth">
+								<div class="card popup_link" >
+									<p class="cardnam">Скритність</p>
+									<p class="carding">Stealth</p>
+								</div>
+							</a>
+							<a class="popup-link" href="#Sleight_of_Hand">
+								<div class="card popup_link" >
+									<p class="cardnam">Спритність рук</p>
+									<p class="carding">Sleight of Hand</p>
+								</div>
+							</a>
+							<a class="popup-link" href="#Initiative">
+								<div class="card popup_link" >
+									<p class="cardnam">Ініціатива</p>
+									<p class="carding">Initiative</p>
+								</div>
+							</a>
+							<a class="popup-link" href="#Other_Dexterity_Checks">
+								<div class="card popup_link" >
+									<p class="cardnam">Інші перевірки спритності</p>
+									<p class="carding">Other Dexterity Checks</p>
+								</div>
+							</a>
+							<a class="popup-link" href="#Attack_and_Damage_Rolls">
+								<div class="card popup_link" >
+									<p class="cardnam">Кидки атаки та урон</p>
+									<p class="carding">Attack and Damage Rolls</p>
+								</div>
+							</a>
+							<a class="popup-link" href="#Armor_Class">
+								<div class="card popup_link" >
+									<p class="cardnam">Клас Захисту (КЗ)</p>
+									<p class="carding">Armor Class</p>
+								</div>
+							</a>
+					</div>
+					<div class="contentp">
+									<p class="cardzam">Статура</p>
+									<p class="cardzag">Constitution</p>
+							<a class="popup-link" href="#Holding_Your_Breath">
+								<div class="card popup_link" >
+									<p class="cardnam">Затримавши дихання</p>
+									<p class="carding">Holding Your Breath</p>
+								</div>
+							</a>
+							<a class="popup-link" href="#Other_Constitution_Checks">
+								<div class="card popup_link" >
+									<p class="cardnam">Інші перевірки статури</p>
+									<p class="carding">Other Constitution Checks</p>
+								</div>
+							</a>
+							<a class="popup-link" href="#Hit_Points">
+								<div class="card popup_link" >
+									<p class="cardnam">Хіти</p>
+									<p class="carding">Hit Points</p>
+								</div>
+							</a>
+					</div>
+					<div class="contentp">
+									<p class="cardzam">Інтелект</p>
+									<p class="cardzag">Intelligence</p>
+							<a class="popup-link" href="#Investigation">
+								<div class="card popup_link" >
+									<p class="cardnam">Аналіз</p>
+									<p class="carding">Investigation</p>
+								</div>
+							</a>
+							<a class="popup-link" href="#History">
+								<div class="card popup_link" >
+									<p class="cardnam">Історія</p>
+									<p class="carding">History</p>
+								</div>
+							</a>
+							<a class="popup-link" href="#Arcana">
+								<div class="card popup_link" >
+									<p class="cardnam">Магія</p>
+									<p class="carding">Arcana</p>
+								</div>
+							</a>
+							<a class="popup-link" href="#Nature">
+								<div class="card popup_link" >
+									<p class="cardnam">Природа</p>
+									<p class="carding">Nature</p>
+								</div>
+							</a>
+							<a class="popup-link" href="#Religion">
+								<div class="card popup_link" >
+									<p class="cardnam">Релігія</p>
+									<p class="carding">Religion</p>
+								</div>
+							</a>
+							<a class="popup-link" href="#Other_Intelligence_Checks">
+								<div class="card popup_link" >
+									<p class="cardnam">Інші перевірки інтелекту</p>
+									<p class="carding">Other Intelligence Checks</p>
+								</div>
+							</a>
+					</div>
+					<div class="contentp">
+									<p class="cardzam">Мудрість</p>
+									<p class="cardzag">Wisdom</p>
+							<a class="popup-link" href="#Survival">
+								<div class="card popup_link" >
+									<p class="cardnam">Виживання</p>
+									<p class="carding">Survival</p>
+								</div>
+							</a>
+							<a class="popup-link" href="#Animal_Handling">
+								<div class="card popup_link" >
+									<p class="cardnam">Догляд за тваринами</p>
+									<p class="carding">Animal Handling</p>
+								</div>
+							</a>
+							<a  class="popup-link"href="#Medicine">
+								<div class="card popup_link" >
+									<p class="cardnam">Медицина</p>
+									<p class="carding">Medicine</p>
+								</div>
+							</a>
+							<a class="popup-link" href="#Insight">
+								<div class="card popup_link" >
+									<p class="cardnam">Проникливість</p>
+									<p class="carding">Insight</p>
+								</div>
+							</a>
+							<a class="popup-link" href="#Perception">
+								<div class="card popup_link" >
+									<p class="cardnam">Увага</p>
+									<p class="carding">Perception</p>
+								</div>
+							</a>
+							<a class="popup-link" href="#Other_Wisdom_checks">
+								<div class="card popup_link" >
+									<p class="cardnam">Інші перевірки мудрості</p>
+									<p class="carding">Other Wisdom checks</p>
+								</div>
+							</a>
+					</div>
+					<div class="contentp">
+									<p class="cardzam">Харизма</p>
+									<p class="cardzag">Charisma</p>
+							<a class="popup-link" href="#Performance">
+								<div class="card popup_link" >
+									<p class="cardnam">Виступ</p>
+									<p class="carding">Performance</p>
+								</div>
+							</a>
+							<a class="popup-link" href="#Intimidation">
+								<div class="card popup_link" >
+									<p class="cardnam">Залякування</p>
+									<p class="carding">Intimidation</p>
+								</div>
+							</a>
+							<a class="popup-link" href="#Deception">
+								<div class="card popup_link" >
+									<p class="cardnam">Обман</p>
+									<p class="carding">Deception</p>
+								</div>
+							</a>
+							<a class="popup-link" href="#Persuasuion">
+								<div class="card popup_link" >
+									<p class="cardnam">Переконання</p>
+									<p class="carding">Persuasuion</p>
+								</div>
+							</a>
+							<a class="popup-link" href="#Other_Charisma_checks">
+								<div class="card popup_link" >
+									<p class="cardnam">Інші перевірки харизми</p>
+									<p class="carding">Other Charisma checks</p>
+								</div>
+							</a>
+					</div>
+					<div class="contentp">
+									<p class="cardzam">Опціональні характеристики</p>
+							<a class="popup-link" href="#Proficiency_Dice">
+								<div class="card popup_link" >
+									<p class="cardnam">Кістки майстерності</p>
+									<p class="carding">Proficiency Dice</p>
+								</div>
+							</a>
+							<a class="popup-link" href="#Sanity">
+								<div class="card popup_link" >
+									<p class="cardnam">Розсудливість</p>
+									<p class="carding">Sanity</p>
+								</div>
+							</a>
+							<a class="popup-link" href="#Honor">
+								<div class="card popup_link" >
+									<p class="cardnam">Честь</p>
+									<p class="carding">Honor</p>
+								</div>
+							</a>
+					</div>
+				</details>
+				<details>
+					<summary>
+							<div class="card">
+								<p class="cardnam">Хіти, Смерть та Відпочинок</p>
+								<p class="carding">Hits, Death and Rest</p>
+							</div>
+					</summary>
+						<div class="content">
+							<a class="popup-link" href="#test">
+								<div class="card popup_link" >
+									<p class="cardnam">ххх</p>
+									<p class="carding">ххх</p>
+								</div>
+							</a>
+						</div>
+				</details>
+				<details>
+					<summary>
+							<div class="card">
+								<p class="cardnam">Зір та світло</p>
+								<p class="carding">Sight and light</p>
+							</div>
+					</summary>
+						<div class="content">
+							<a class="popup-link" href="#test">
+								<div class="card popup_link" >
+									<p class="cardnam">ххх</p>
+									<p class="carding">ххх</p>
+								</div>
+							</a>
+						</div>
+				</details>
+				<details>
+					<summary>
+							<div class="card">					
+								<p class="cardnam">Прогрес досвіду персонажа</p>
+								<p class="carding">Character Advancement</p>
+							</div>
+					</summary>
+						<div class="content">
+							<a class="popup-link" href="#test">
+								<div class="card popup_link" >
+									<p class="cardnam">ххх</p>
+									<p class="carding">ххх</p>
+								</div>
+							</a>
+						</div>
+				</details>
+				<details>
+					<summary>
+							<div class="card">
+								<p class="cardnam">Урон та атака</p>
+								<p class="carding">Damage and Attack</p>
+							</div>
+					</summary>
+						<div class="content">
+							<a class="popup-link" href="#test">
+								<div class="card popup_link" >
+									<p class="cardnam">ххх</p>
+									<p class="carding">ххх</p>
+								</div>
+							</a>
+						</div>
+				</details>
+				<details>
+					<summary>
+							<div class="card">
+								<p class="cardnam">Рух</p>
+								<p class="carding">Move</p>
+							</div>
+					</summary>
+						<div class="content">
+							<a class="popup-link" href="#test">
+								<div class="card popup_link" >
+									<p class="cardnam">ххх</p>
+									<p class="carding">ххх</p>
+								</div>
+							</a>
+						</div>
+				</details>
+				<details>
+					<summary>
+							<div class="card">
+								<p class="cardnam">Дія</p>
+								<p class="carding">Action</p>
+							</div>
+					</summary>
+						<div class="content">
+							<a class="popup-link" href="#test">
+								<div class="card popup_link" >
+									<p class="cardnam">ххх</p>
+									<p class="carding">ххх</p>
+								</div>
+							</a>
+						</div>
+				</details>
+				<details>
+					<summary>
+							<div class="card">
+								<p class="cardnam">Бонусна дія</p>
+								<p class="carding">Bonus Action</p>
+							</div>
+					</summary>
+						<div class="content">
+							<a class="popup-link" href="#test">
+								<div class="card popup_link" >
+									<p class="cardnam">ххх</p>
+									<p class="carding">ххх</p>
+								</div>
+							</a>
+						</div>
+				</details>
+				<details>
+					<summary>
+							<div class="card">
+								<p class="cardnam">Реакція</p>
+								<p class="carding">Reaction</p>
+							</div>
+					</summary>
+						<div class="content">
+							<a class="popup-link" href="#test">
+								<div class="card popup_link" >
+									<p class="cardnam">ххх</p>
+									<p class="carding">ххх</p>
+								</div>
+							</a>
+						</div>
+				</details>
+				<details>
+					<summary>
+							<div class="card">
+								<p class="cardnam">Безкоштовна дія</p>
+								<p class="carding">Free Action</p>
+							</div>
+					</summary>
+						<div class="content">
+							<a class="popup-link" href="#test">
+								<div class="card popup_link" >
+									<p class="cardnam">ххх</p>
+									<p class="carding">ххх</p>
+								</div>
+							</a>
+						</div>
+				</details>
+				<details>
+					<summary>
+							<div class="card">
+								<p class="cardnam">Зброя</p>
+								<p class="carding">Weapons</p>
+							</div>
+					</summary>
+						<div class="content">
+							<a class="popup-link" href="#test">
+								<div class="card popup_link" >
+									<p class="cardnam">ххх</p>
+									<p class="carding">ххх</p>
+								</div>
+							</a>
+						</div>
+				</details>
+				<details>
+					<summary>
+							<div class="card">
+								<p class="cardnam">Укриття</p>
+								<p class="carding">Cover</p>
+							</div>
+					</summary>
+						<div class="content">
+							<a class="popup-link" href="#test">
+								<div class="card popup_link" >
+									<p class="cardnam">ххх</p>
+									<p class="carding">ххх</p>
+								</div>
+							</a>
+						</div>
+				</details>
+				<details>
+					<summary>
+							<div class="card">
+								<p class="cardnam">Стан</p>
+								<p class="carding">Conditions</p>
+							</div>
+					</summary>
+						<div class="content">
+							<a class="popup-link" href="#test">
+								<div class="card popup_link" >
+									<p class="cardnam">ххх</p>
+									<p class="carding">ххх</p>
+								</div>
+							</a>
+						</div>
+				</details>
+				<details>
+					<summary>
+							<div class="card">
+								<p class="cardnam">Мови</p>
+								<p class="carding">Languages</p>
+							</div>
+					</summary>
+						<div class="content">
+							<a class="popup-link" href="#test">
+								<div class="card popup_link" >
+									<p class="cardnam">ххх</p>
+									<p class="carding">ххх</p>
+								</div>
+							</a>
+						</div>
+				</details>
+				<details>
+					<summary>
+							<div class="card">
+								<p class="cardnam">Школи магії</p>
+								<p class="carding">The Schools of Magic </p>
+							</div>
+					</summary>
+						<div class="content">
+							<a class="popup-link" href="#test">
+								<div class="card popup_link" >
+									<p class="cardnam">ххх</p>
+									<p class="carding">ххх</p>
+								</div>
+							</a>
+						</div>
+				</details>
+		</div>
+
+
+		<div>
+			<div class="popup" id="Rolling_for_scores">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Прокидка характеристик</p>
+	      	  		<p class="cardingp">Rolling for scores</p>
+	        			<p class="cardmatp">Player's Handbook</p>
+	        			<hr>
+	    	    		<p class="cardtex">Ви генеруєте шість значень характеристик випадково.</p>
+	    	    		<p class="cardtex">Киньте чотири 6-гранні кістки і запишіть суму трьох найбільших результатів на листку для нотаток. Виконайте це ще п'ять разів, щоб у вас вийшло 6 чисел.</p>
+	    	    		<p class="cardtex">Тепер запишіть кожне з шести отриманих чисел поряд з кожною з шести характеристик вашого персонажа, довільно, таким чином яким вважаєте правильним, щоб присвоїти значення Силі, Спритності, Статурі, Інтелекту, Мудрості та Харизмі.</p>
+	    	    		<p class="cardtex">Після вибору раси значення характеристик зміняться, позначте ці зміни у аркуші персонажа.</p>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="Point_Buy">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Покупка характеристик</p>
+	      	  		<p class="cardingp">Point Buy</p>
+	        			<p class="cardmatp">Player's Handbook</p>
+	        			<hr>
+	    	    		<p class="cardtex">Якщо Майстер дозволить, можна використовувати цей варіант визначення значень характеристик. Метод, описаний тут, дозволяє створити персонажа із набором характеристик, які ви підбираєте індивідуально.</p>
+	    	    		<p class="cardtex">Ви отримуєте 27 пунктів, які розподіляєте між значеннями характеристик. Ціна кожного значення наведена у таблиці «Ціна значень характеристик». Наприклад, значення 14 коштує 7 пунктів. 15 - найбільше значення характеристики, яке ви можете отримати в результаті, використовуючи цей метод (перед застосуванням расових поліпшень). Значення характеристики не може бути нижче 8.</p>
+	    	    		<p class="cardtex">Цей метод визначення характеристик дозволяє створити набір із трьох високих і трьох низьких значень (15, 15, 15, 8, 8, 8), або набір середніх і вище середнього (13, 13, 13, 12, 12, 12), або інший набір значень між цими крайнощами.</p>
+	    	    		<table class="culc" align="center">
+	    	    			<thead>
+	    	    				<tr>
+	    	    					<td colspan="2">
+	    	    						Ціна значень характеристик
+	    	    					</td>
+	    	    				</tr>
+	    	    				<tr>
+	    	    					<td>
+	    	    						Значення
+	    	    					</td>
+	    	    					<td>
+	    	    						Ціна
+	    	    					</td>
+	    	    				</tr>
+	    	    			</thead>
+	    	    			<tbody>
+	    	    				<tr class="tabl">
+	    	    					<td>
+	    	    						8
+	    	    					</td>
+	    	    					<td>
+	    	    						0
+	    	    					</td>
+	    	    				</tr>
+	    	    				<tr class="tabl">
+	    	    					<td>
+	    	    						9
+	    	    					</td>
+	    	    					<td>
+	    	    						1
+	    	    					</td>
+	    	    				</tr>
+	    	    				<tr class="tabl">
+	    	    					<td>
+	    	    						10
+	    	    					</td>
+	    	    					<td>
+	    	    						2
+	    	    					</td>
+	    	    				</tr>
+	    	    				<tr class="tabl">
+	    	    					<td>
+	    	    						11
+	    	    					</td>
+	    	    					<td>
+	    	    						3
+	    	    					</td>
+	    	    				</tr>
+	    	    				<tr class="tabl">
+	    	    					<td>
+	    	    						12
+	    	    					</td>
+	    	    					<td>
+	    	    						4
+	    	    					</td>
+	    	    				</tr>
+	    	    				<tr class="tabl">
+	    	    					<td>
+	    	    						13
+	    	    					</td>
+	    	    					<td>
+	    	    						5
+	    	    					</td>
+	    	    				</tr>
+	    	    				<tr class="tabl">
+	    	    					<td>
+	    	    						14
+	    	    					</td>
+	    	    					<td>
+	    	    						7
+	    	    					</td>
+	    	    				</tr>
+	    	    				<tr class="tabl">
+	    	    					<td>
+	    	    						15
+	    	    					</td>
+	    	    					<td>
+	    	    						9
+	    	    					</td>
+	    	    				</tr>
+	    	    			</tbody>
+	    	    		</table>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="Standard_array">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Стандартний масив</p>
+	      	  		<p class="cardingp">Standard array</p>
+	        			<p class="cardmatp">Player's Handbook</p>
+	        			<hr>
+	    	    		<p class="cardtex">Якщо ви хочете заощадити час або вам не подобається ідея випадкового визначення значень характеристик, ви можете використовувати такі цифри:</p>
+	    	    		<p class="cardnamp" style="text-align: center;">15, 14, 13, 12, 10, 8</p>
+	    	    		<p class="cardtex">Тепер запишіть кожне з шести отриманих чисел поряд з кожною з шести характеристик вашого персонажа, довільно, таким чином яким вважаєте правильним, щоб присвоїти значення Силі, Спритності, Статурі, Інтелекту, Мудрості та Харизмі.</p>
+	    	    		<p class="cardtex">Після вибору раси значення характеристик зміняться, позначте ці зміни в аркуші персонажа.</p>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="Ability_Modifier">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Модифікатор здібностей</p>
+	      	  		<p class="cardingp">Ability Modifier</p>
+	        			<p class="cardmatp">Player's Handbook</p>
+	        			<hr>
+	    	    		<p class="cardtex">Бонус, що додається до перевірок характеристик залежно від їх значень</p>
+	    	    		<table class="culc" align="center">
+	    	    			<thead>
+	    	    				<tr>
+	    	    					<td>
+	    	    						Значення
+	    	    					</td>
+	    	    					<td>
+	    	    						Модифікатор
+	    	    					</td>
+	    	    				</tr>
+	    	    			</thead>
+	    	    			<tbody>
+	    	    				<tr class="tabl">
+	    	    					<td>
+	    	    						1
+	    	    					</td>
+	    	    					<td>
+	    	    						-5
+	    	    					</td>
+	    	    				</tr>
+	    	    				<tr class="tabl">
+	    	    					<td>
+	    	    						2-3
+	    	    					</td>
+	    	    					<td>
+	    	    						-4
+	    	    					</td>
+	    	    				</tr>
+	    	    				<tr class="tabl">
+	    	    					<td>
+	    	    						4-5
+	    	    					</td>
+	    	    					<td>
+	    	    						-3
+	    	    					</td>
+	    	    				</tr>
+	    	    				<tr class="tabl">
+	    	    					<td>
+	    	    						6-7
+	    	    					</td>
+	    	    					<td>
+	    	    						-2
+	    	    					</td>
+	    	    				</tr>
+	    	    				<tr class="tabl">
+	    	    					<td>
+	    	    						8-9
+	    	    					</td>
+	    	    					<td>
+	    	    						-1
+	    	    					</td>
+	    	    				</tr>
+	    	    				<tr class="tabl">
+	    	    					<td>
+	    	    						10-11
+	    	    					</td>
+	    	    					<td>
+	    	    						+0
+	    	    					</td>
+	    	    				</tr>
+	    	    				<tr class="tabl">
+	    	    					<td>
+	    	    						12-13
+	    	    					</td>
+	    	    					<td>
+	    	    						+1
+	    	    					</td>
+	    	    				</tr>
+	    	    				<tr class="tabl">
+	    	    					<td>
+	    	    						14-15
+	    	    					</td>
+	    	    					<td>
+	    	    						+2
+	    	    					</td>
+	    	    				</tr>
+	    	    				<tr class="tabl">
+	    	    					<td>
+	    	    						16-17
+	    	    					</td>
+	    	    					<td>
+	    	    						+3
+	    	    					</td>
+	    	    				</tr>
+	    	    				<tr class="tabl">
+	    	    					<td>
+	    	    						18-19
+	    	    					</td>
+	    	    					<td>
+	    	    						+4
+	    	    					</td>
+	    	    				</tr>
+	    	    				<tr class="tabl">
+	    	    					<td>
+	    	    						20-21
+	    	    					</td>
+	    	    					<td>
+	    	    						+5
+	    	    					</td>
+	    	    				</tr>
+	    	    				<tr class="tabl">
+	    	    					<td>
+	    	    						22-23
+	    	    					</td>
+	    	    					<td>
+	    	    						+6
+	    	    					</td>
+	    	    				</tr>
+	    	    				<tr class="tabl">
+	    	    					<td>
+	    	    						24-25
+	    	    					</td>
+	    	    					<td>
+	    	    						+7
+	    	    					</td>
+	    	    				</tr>
+	    	    				<tr class="tabl">
+	    	    					<td>
+	    	    						26-27
+	    	    					</td>
+	    	    					<td>
+	    	    						+8
+	    	    					</td>
+	    	    				</tr>
+	    	    				<tr class="tabl">
+	    	    					<td>
+	    	    						28-29
+	    	    					</td>
+	    	    					<td>
+	    	    						+9
+	    	    					</td>
+	    	    				</tr>
+	    	    				<tr class="tabl">
+	    	    					<td>
+	    	    						30
+	    	    					</td>
+	    	    					<td>
+	    	    						+10
+	    	    					</td>
+	    	    				</tr>
+	    	    			</tbody>
+	    	    		</table>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="Passive_Checks">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Пасивні перевірки</p>
+	      	  		<p class="cardingp">Passive Checks</p>
+	        			<p class="cardmatp">Player's Handbook</p>
+	        			<hr>
+	    	    		<p class="cardtex">Пасивна перевірка - це особлива перевірка характеристики, в якій кістки не кидаються. Така перевірка може відображати середній результат для завдання, що виконується з регулярною періодичністю, наприклад пошуки потайних дверей. Майстер може використовувати її для таємного визначення без кидків кісток того, чи досягнуть успіху персонажі в чомусь, наприклад, чи помітять персонажі чудовисько, що сховалося.</p>
+	    	    		<p class="cardtex">Результат пасивної перевірки персонажа визначається так:</p>
+	    	    		<p class="cardtex">10 + всі модифікатори, які зазвичай застосовуються до перевірки</p>
+	    	    		<p class="cardtex">Якщо персонаж здійснює перевірку з перевагою, додайте 5. У разі перешкоди відніміть 5. Результат пасивної перевірки у грі називається значенням.</p>
+	    	    		<p class="cardtex">Наприклад, якщо у персонажа 1 рівня Мудрість 15, і він володіє навичкою Увага, його пасивне значення Мудрості (Увага) дорівнює 14.</p>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="Athletics">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Атлетика</p>
+	      	  		<p class="cardingp">Athletics</p>
+	        			<p class="cardmatp">Player's Handbook</p>
+	        			<hr>
+	    	    		<p class="cardtex">Перевірки Сили (Атлетика) покривають різноманітні ситуації, у яких ви лазите, стрибаєте чи плаваєте. Приклади включають такі дії:</p>
+	    	    		<ul>
+	    	    			<li>
+	    	    				Ви намагаєтесь піднятися на крутий стрімчак, уникаючи при цьому небезпек, або спроби втриматися за щось, коли вас намагаються струсити.
+	    	    			</li>
+	    	    			<li>
+	    	    				Ви намагаєтеся стрибнути на велику відстань або зробити трюк під час стрибка.
+	    	    			</li>
+	    	    			<li>
+	    	    				Ви намагаєтеся плисти або залишатися на плаву в бурхливих водах, під час шторму або серед чагарників водоростей. Інша істота може спробувати штовхнути або затягнути вас під воду, або іншим способом завадити вашому плаванню.
+	    	    			</li>
+	    	    		</ul>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="Carrying_Capacity">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Вантажопідйомність</p>
+	      	  		<p class="cardingp">Carrying Capacity</p>
+	        			<p class="cardmatp">Player's Handbook</p>
+	        			<hr>
+	    	    		<p class="cardtex">Ваша вантажопідйомність це ваше значення Сили, помножене на 15. Таку вагу (у фунтах) ви можете носити, і це досить багато, тому більшості персонажів не потрібно про це турбуватись.</p>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="Other_Strength_Checks">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Інші перевірки сили</p>
+	      	  		<p class="cardingp">Other Strength Checks</p>
+	        			<p class="cardmatp">Player's Handbook</p>
+	        			<hr>
+	    	    		<p class="cardtex">Майстер може попросити перевірки Сили, якщо ви намагаєтеся зробити щось із наступного:</p>
+	    	    		<ul>
+	    	    			<li>
+	    	    				Спроба відкрити двері, що застрягли, замкнені або закладені на засув.
+	    	    			</li>
+	    	    			<li>
+	    	    				Спроба вирватися з кайданів
+	    	    			</li>
+	    	    			<li>
+	    	    				Спроба протиснутися вузьким тунелем
+	    	    			</li>
+	    	    			<li>
+	    	    				Спроба втриматись за фургон, не відчепившись від нього під час руху
+	    	    			</li>
+	    	    			<li>
+	    	    				Перекидання статуї
+	    	    			</li>
+	    	    			<li>
+	    	    				Спроба утримати валун від падіння
+	    	    			</li>
+	    	    		</ul>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="Size_and_Weight">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Розмір і вага</p>
+	      	  		<p class="cardingp">Size and Weight</p>
+	        			<p class="cardmatp">Player's Handbook</p>
+	        			<hr>
+	    	    		<p class="cardtex">Істоти Великого розміру можуть тягнути більше, а Крихітні істоти менше. За кожну категорію розміру вище за Середню подвойте вантажопідйомність і вагу, яку може штовхати, тягнути і піднімати ваш персонаж. Для створення крихітного розміру зменшіть ці значення вдвічі.</p>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="Attack_and_Damage_Rolls_Stat">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Перевірки атаки та урону</p>
+	      	  		<p class="cardingp">Attack and Damage Rolls Stat</p>
+	        			<p class="cardmatp">Player's Handbook</p>
+	        			<hr>
+	    	    		<p class="cardtex">Ви додаєте модифікатор Сили до кидків атаки та урону при здійсненні атак рукопашною зброєю, таким як булава, сокира або метальний спис. Рукопашною зброєю здійснюються рукопашні атаки, а деякі її види можна метати, роблячи таким чином далекобійні атаки.</p>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="Pushing_and_Carrying">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Штовхання та перенесення</p>
+	      	  		<p class="cardingp">Pushing and Carrying</p>
+	        			<p class="cardmatp">Player's Handbook</p>
+	        			<hr>
+	    	    		<p class="cardtex">Сила помножена на 30. Як багато ваги ви можете штовхати, волочити та переносити.</p>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="Acrobatics">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Акробатика</p>
+	      	  		<p class="cardingp">Acrobatics</p>
+	        			<p class="cardmatp">Player's Handbook</p>
+	        			<hr>
+	    	    		<p class="cardtex">Перевірки Спритності (Акробатика) охоплюють спроби встояти на ногах у незручній ситуації, наприклад коли ви намагаєтеся пробігтися по льоду, балансуєте на натягнутому канаті або стоїте на палубі корабля в шторм.</p>
+	    	    		<p class="cardtex">Майстер може також закликати до перевірки Спритності (Акробатика), щоб побачити, чи можете ви виконати акробатичний трюк, включаючи пірнання, перекиди, сальто та перекати.</p>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="Stealth">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Скритність</p>
+	      	  		<p class="cardingp">Stealth</p>
+	        			<p class="cardmatp">Player's Handbook</p>
+	        			<hr>
+	    	    		<p class="cardtex">Здійсніть перевірку Спритності (Скритність), коли намагаєтеся сховатися від ворогів, прокрастися повз варту, втекти непоміченим або непомітно і нечутно підібратися до когось.</p>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="Sleight_of_Hand">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Спритність рук</p>
+	      	  		<p class="cardingp">Sleight of Hand</p>
+	        			<p class="cardmatp">Player's Handbook</p>
+	        			<hr>
+	    	    		<p class="cardtex">Якщо ви намагаєтеся жонглювати або зробити спритний трюк, наприклад, підкинути щось іншому або сховати щось на своєму тілі, здійсніть перевірку Спритності рук.</p>
+	    	    		<p class="cardtex">Майстер може закликати здійснити перевірку Спритності (Спритність рук) щоб визначити, чи можете ви зрізати у когось гаманець або підкинути щось іншому в кишеню.</p>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="Initiative">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Ініціатива</p>
+	      	  		<p class="cardingp">Initiative</p>
+	        			<p class="cardmatp">Player's Handbook</p>
+	        			<hr>
+	    	    		<p class="cardtex">На початку кожної битви ви здійснюєте перевірку ініціативи, здійснюючи перевірку Спритності.</p>
+	    	    		<p class="cardtex">Ініціатива визначає порядок ходів істот у битві.</p>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="Other_Dexterity_Checks">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Інші перевірки спритності</p>
+	      	  		<p class="cardingp">Other Dexterity Checks</p>
+	        			<p class="cardmatp">Player's Handbook</p>
+	        			<hr>
+	    	    		<p class="cardtex">Майстер може попросити перевірки Спритності, якщо ви намагаєтеся зробити щось із наступного:</p>
+	    	    		<ul>
+	    	    			<li>
+	    	    				Ви спускаєтеся з важко навантаженою тачкою по крутому схилу
+	    	    			</li>
+	    	    			<li>
+	    	    				Ви закладаєте крутий віраж на кареті
+	    	    			</li>
+	    	    			<li>
+	    	    				Ви взламуєте замок
+	    	    			</li>
+	    	    			<li>
+	    	    				Ви знешкоджуєте пастку
+	    	    			</li>
+	    	    			<li>
+	    	    				Ви пов'язуєте бранця складним вузлом
+	    	    			</li>
+	    	    			<li>
+	    	    				Ви намагаєтеся звільнитися з пут
+	    	    			</li>
+	    	    			<li>
+	    	    				Ви граєте на струнному інструменті
+	    	    			</li>
+	    	    			<li>
+	    	    				Ви створюєте дрібний чи високодеталізований предмет
+	    	    			</li>
+	    	    		</ul>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="Attack_and_Damage_Rolls">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Кидки атаки та урон</p>
+	      	  		<p class="cardingp">Attack and Damage Rolls</p>
+	        			<p class="cardmatp">Player's Handbook</p>
+	        			<hr>
+	    	    		<p class="cardtex">Ви додаєте модифікатор Спритності до кидків атаки та урону при скоєнні атак далекобійною зброєю, таким як праща або довгий лук. Ви також можете додавати модифікатор Спритності до кидків атаки та урону при скоєнні атак рукопашною зброєю з властивістю Витончена, таким як кинджал та рапіра.</p>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="Armor_Class">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Клас Захисту (КЗ)</p>
+	      	  		<p class="cardingp">Armor Class</p>
+	        			<p class="cardmatp">Player's Handbook</p>
+	        			<hr>
+	    	    		<p class="cardtex">Від Класу Захисту залежить наскільки складно в вас попасти під час атаки</p>
+	    	    		<p class="cardtex">В залежності від вашого класу, ви можете носити різні обладунки кожен з яких дає свій Клас Захисту</p>
+	    	    		<p class="cardtex">Якщо ви не носите обладунки, ваш Клас Захиту це 10+ модифікатор Спритності (деякі класи ще додають інші модифікатори, дивитись в описі класу)</p>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="Holding_Your_Breath">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Затримавши дихання</p>
+	      	  		<p class="cardingp">xxx</p>
+	        			<p class="cardmatp">Player's Handbook</p>
+	        			<hr>
+	    	    		<p class="cardtex">Істота може затримати дихання на кількість хвилин, що дорівнює 1 + модифікатор статури.</p>
+	    	    		<p class="cardtex">Якщо істота не може дихати, вона може жити протягом кількості раундів, що дорівнює модифікатору Статури (мінімум 1 раунд). На початку свого наступного ходу її хіти опускаються до 0 і вона починає вмирати. Якщо у вас закінчилося повітря або вас душать, ви не можете відновлювати хіти і ставати стабілізованим, поки знову не зможете дихати.</p>
+	    	    		<p class="cardtex">Наприклад, істота з Статурою 14 може затримати дихання на 3 хвилини. Якщо воно почне задихатися, він матиме 2 раунди, після чого його хіти опускаються до 0.</p>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="Other_Constitution_Checks">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Інші перевірки статури</p>
+	      	  		<p class="cardingp">Other Constitution Checks</p>
+	        			<p class="cardmatp">Player's Handbook</p>
+	        			<hr>
+	    	    		<p class="cardtex">Перевірки Статури відбуваються не часто, і від неї не залежать ніякі навички, тому що витривалість, яку відображає ця характеристика, пасивна, і персонаж чи чудовисько не може активно використовувати її. Умовно статура це ваше тіло. Однак перевірка статури може моделювати вашу спробу зробити щось незвичайне. Майстер може закликати до перевірки Статури, якщо ви намагаєтеся зробити щось із наступного:</p>
+	    	    		<ul>
+	    	    			<li>
+	    	    				Ви кілька годин без перерви працюєте
+	    	    			</li>
+	    	    			<li>
+	    	    				Ви довго не спите
+	    	    			</li>
+	    	    			<li>
+	    	    				У вас немає їжі та води
+	    	    			</li>
+	    	    			<li>
+	    	    				Ви намагаєтеся осушити кухоль елю одним махом
+	    	    			</li>
+	    	    		</ul>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="Hit_Points">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Хіти</p>
+	      	  		<p class="cardingp">Hit Points</p>
+	        			<p class="cardmatp">Player's Handbook</p>
+	        			<hr>
+	    	    		<p class="cardtex">Модифікатор статури бере участь у визначенні ваших хітів. Зазвичай ви додаєте модифікатор Статури до всіх кісток хітів, кинутих для визначення хітів.</p>
+	    	    		<p class="cardtex">Якщо ваш модифікатор Статури змінюється, змінюється і максимум ваших хітів, якби новий модифікатор був у вас з 1 рівня. Наприклад, якщо ви підвищуєте значення статури, коли досягаєте 4 рівня, і ваш модифікатор статури збільшується з +1 до +2, ви змінюєте максимум хітів так, ніби цей модифікатор завжди був +2. Ви додаєте 3 хіти за перші три рівні, а потім визначаєте хіти за 4 рівень, використовуючи вже новий модифікатор. І навпаки, якщо на 7 рівні певний ефект зменшить ваше значення статури, зменшивши модифікатор статури на 1, максимум ваших хітів зменшиться на 7.</p>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="Investigation">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Аналіз</p>
+	      	  		<p class="cardingp">Investigation</p>
+	        			<p class="cardmatp">Player's Handbook</p>
+	        			<hr>
+	    	    		<p class="cardtex">Якщо ви шукаєте підказки та робите на їх основі висновки, ви здійснюєте перевірку Інтелекту (Аналіз).</p>
+	    	    		<p class="cardtex">Ви можете обчислити місцезнаходження захованого предмета, зрозуміти на вигляд рани, якою зброєю вона була нанесена або визначити найслабшу точку в тунелі, здатну її обрушити.</p>
+	    	    		<p class="cardtex">Розгляд стародавніх сувоїв у пошуках таємного знання також може вимагати здійснення перевірки Інтелекту (Аналіз).</p>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="History">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Історія</p>
+	      	  		<p class="cardingp">History</p>
+	        			<p class="cardmatp">Player's Handbook</p>
+	        			<hr>
+	    	    		<p class="cardtex">Перевірка Інтелекту (Історія) визначає вашу здатність згадати знання про історичні події, легендарні особистості, стародавні королівства, колишні суперечки, недавні війни і загублені цивілізації.</p>
+	    	    		<p class="cardtex">Також деякі майстри використовують перевірку Історії як пам'ять персонажа</p>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="Arcana">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Магія</p>
+	      	  		<p class="cardingp">Arcana</p>
+	        			<p class="cardmatp">Player's Handbook</p>
+	        			<hr>
+	    	    		<p class="cardtex">Перевірка Інтелекту (Магія) визначає вашу здатність згадати знання про закляття, магічні предмети, містичні символи, магічні традиції, плани існування та мешканців цих планів.</p>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="Nature">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Природа</p>
+	      	  		<p class="cardingp">Nature</p>
+	        			<p class="cardmatp">Player's Handbook</p>
+	        			<hr>
+	    	    		<p class="cardtex">Перевірка Інтелекту (Природа) визначає вашу здатність згадати знання про місцевість, про рослини та тварин, про погоду та природні цикли.</p>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="Religion">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Релігія</p>
+	      	  		<p class="cardingp">Religion</p>
+	        			<p class="cardmatp">Player's Handbook</p>
+	        			<hr>
+	    	    		<p class="cardtex">Перевірка Інтелекту (Релігія) визначає вашу здатність згадати знання про божеств, ритуали і молитви, релігійні ієрархії, священні символи та практики таємних культів.</p>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="Other_Intelligence_Checks">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Інші перевірки інтелекту</p>
+	      	  		<p class="cardingp">Other Intelligence Checks</p>
+	        			<p class="cardmatp">Player's Handbook</p>
+	        			<hr>
+	    	    		<p class="cardtex">Майстер попросити перевірки Інтелекту, якщо ви намагаєтеся зробити щось із наступного:</p>
+	    	    		<ul>
+	    	    			<li>
+	    	    				Ви спілкуєтесь із істотою без використання слів
+	    	    			</li>
+	    	    			<li>
+	    	    				Ви оцінюєте вартість цінного предмета
+	    	    			</li>
+	    	    			<li>
+	    	    				Ви маскуєтеся під міського вартового
+	    	    			</li>
+	    	    			<li>
+	    	    				Ви підробляєте документ
+	    	    			</li>
+	    	    			<li>
+	    	    				Ви згадуєте знання про ремесло чи торгівлю
+	    	    			</li>
+	    	    			<li>
+	    	    				Ви змагаєтеся з кимось у філософській суперечці
+	    	    			</li>
+	    	    		</ul>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="Survival">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Виживання</p>
+	      	  		<p class="cardingp">Survival</p>
+	        			<p class="cardmatp">Player's Handbook</p>
+	        			<hr>
+	    	    		<p class="cardtex">Майстер може закликати здійснити перевірку Мудрості (Виживання) для вистеження ворогів, полювання на дичину, знаходження дороги в промерзлій тундрі, зауваження ознак того, що поряд живуть совомеди, прогнози погоди та уникнення сипучих пісків та інших природних небезпек.</p>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="Animal_Handling">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Догляд за тваринами</p>
+	      	  		<p class="cardingp">Animal Handling</p>
+	        			<p class="cardmatp">Player's Handbook</p>
+	        			<hr>
+	    	    		<p class="cardtex">Якщо виникає питання, чи можете ви заспокоїти одомашнену тварину, утримати скакуна від того, щоб він запанікував, або відчути наміри тварини, Майстер може закликати здійснити перевірку Мудрості (Догляд за тваринами).</p>
+	    	    		<p class="cardtex">Ви також здійснюєте перевірку Мудрості (Догляд за тваринами) для контролю скакуна під час небезпечного маневру.</p>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="Medicine">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Медицина</p>
+	      	  		<p class="cardingp">Medicine</p>
+	        			<p class="cardmatp">Player's Handbook</p>
+	        			<hr>
+	    	    		<p class="cardtex">Перевірка Мудрості (Медицина) дозволяє стабілізувати супутника, що вмирає, або діагностувати хворобу або визначити причину смерті.</p>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="Insight">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Проникливість</p>
+	      	  		<p class="cardingp">Insight</p>
+	        			<p class="cardmatp">Player's Handbook</p>
+	        			<hr>
+	    	    		<p class="cardtex">Ваша перевірка Мудрості (Проникливість) визначає, чи можете ви визначити справжні наміри істоти, наприклад, намагаючись розпізнати брехню чи передбачити чийсь наступний крок. При цьому ви робите здогадки з мови тіла, особливостям розмови та змін у поведінці.</p>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="Perception">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Увага</p>
+	      	  		<p class="cardingp">Perception</p>
+	        			<p class="cardmatp">Player's Handbook</p>
+	        			<hr>
+	    	    		<p class="cardtex">Перевірка Мудрості (Увага) дозволяє вам побачити, почути, унюхати або якось інакше помітити присутність чогось. Вона вимірює вашу готовність до нових подій та гостроту ваших почуттів.</p>
+	    	    		<p class="cardtex">Наприклад, ви можете підслухати розмову під дверима, піддивитися у вікно або почути чудовиськ, що крадуться лісом. Або ви можете спробувати помітити щось, що приховано або легко можна пропустити, чи то орки, що лежать у засідці біля дороги, головорізи, що зачаїлися в тінях алеї або світло від лампи під закритими потайними дверима.</p>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="Other_Wisdom_checks">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Інші перевірки мудрості</p>
+	      	  		<p class="cardingp">Other Wisdom checks</p>
+	        			<p class="cardmatp">Player's Handbook</p>
+	        			<hr>
+	    	    		<p class="cardtex">Майстер може попросити перевірки Мудрості, якщо ви намагаєтеся зробити щось із наступного:</p>
+	    	    		<ul>
+	    	    			<li>
+	    	    				Ви намагаєтеся зрозуміти, що робити далі
+	    	    			</li>
+	    	    			<li>
+	    	    				Ви намагаєтеся розпізнати доппельгангера
+	    	    			</li>
+	    	    		</ul>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="Performance">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Виступ </p>
+	      	  		<p class="cardingp">Performance</p>
+	        			<p class="cardmatp">Player's Handbook</p>
+	        			<hr>
+	    	    		<p class="cardtex">Ваша перевірка Харизми (Виступ) визначає, наскільки добре ви задовольнили публіку музикою, танцем, акторською грою, розповіддю чи іншою розвагою.</p>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="Intimidation">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Залякування</p>
+	      	  		<p class="cardingp">Intimidation</p>
+	        			<p class="cardmatp">Player's Handbook</p>
+	        			<hr>
+	    	    		<p class="cardtex">Коли ви намагаєтеся вплинути на інших загрозами, ворожими діями та фізичним насильством, Майстер може попросити вас здійснити перевірку Харизми (Залякування).</p>
+	    	    		<p class="cardtex">Прикладами можуть бути видобуток інформації з бранця, переконання головорізів відмовитися від бійки та загроза розбитою пляшкою єхидному візиру, щоб той змінив рішення.</p>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="Deception">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Обман</p>
+	      	  		<p class="cardingp">Deception</p>
+	        			<p class="cardmatp">Player's Handbook</p>
+	        			<hr>
+	    	    		<p class="cardtex">Ваша перевірка Харизми (Обман) визначає, чи можете ви навмисно приховати правду, хоч промовами, хоч діями. Такий обман охоплює все, від напряму інших за неправильним слідом і двозначних промов до розповідання відвертої брехні.</p>
+	    	    		<p class="cardtex">Може застосовуватися при відволіканні стражників, обмані торговців, зароблянні грошей азартними іграми, маскування під інших, відведенні чужих підозр хибними твердженнями та збереженні спокою під час розповідання жахливої брехні.</p>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="Persuasuion">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Переконання</p>
+	      	  		<p class="cardingp">Persuasuion</p>
+	        			<p class="cardmatp">Player's Handbook</p>
+	        			<hr>
+	    	    		<p class="cardtex">Якщо ви намагаєтеся вплинути на істоту або цілу групу істот тактовно, з повагою та добродушністю, Майстер може попросити вас здійснити перевірку Харизми (Переконання).</p>
+	    	    		<p class="cardtex">Зазвичай переконання використовується при добрих намірах, при спробах потоваришувати, встановити контакт або виявити етикет. Приклади переконання інших включають спроби переконати дворецького пропустити вас до короля, мирне врегулювання суперечок двох ворогуючих племен і наснагу натовпу городян.</p>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="Other_Charisma_checks">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Інші перевірки харизми</p>
+	      	  		<p class="cardingp">Other Charisma checks</p>
+	        			<p class="cardmatp">Player's Handbook</p>
+	        			<hr>
+	    	    		<p class="cardtex">Майстер може попросити перевірки Харизми, якщо ви намагаєтеся зробити щось із наступного:</p>
+	    	    		<ul>
+	    	    			<li>
+	    	    				Ви шукаєте, з ким найкраще обговорити новини, чутки та плітки
+	    	    			</li>
+	    	    			<li>
+	    	    				Ви зливаєтеся з натовпом, щоб дізнатися основні теми, що обговорюються
+	    	    			</li>
+	    	    			<li>
+	    	    				Ви намагаєтеся спокусити даму чи кавалера на знатному балу
+	    	    			</li>
+	    	    		</ul>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="Proficiency_Dice">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Кістки майстерності</p>
+	      	  		<p class="cardingp">Proficiency Dice</p>
+	        			<p class="cardmatp">Dungeon master’s guide</p>
+	        			<hr>
+	    	    		<p class="cardtex">Це опціональне правило замінює бонус майстерності персонажа на кидок кістки майстерності, додаючи тим більше випадковості в ігровий процес, і роблячи сам факт наявності володіння менш надійним фактором для персонажа. Замість того, щоб просто додати бонус майстерності до перевірки характеристики, кидка атаки або ряткидка, персонаж кидає кістку. Нижче наведена таблиця показує, яка саме кістка відповідає рівню персонажа.</p>
+	    	    		<p class="cardtex">Якщо якесь вміння персонажа, наприклад, компетентність у пройдисвіта [Rogue], дозволяє йому використовувати подвоєний бонус майстерності, гравець кидає кістку майстерності два рази, а не один.</p>
+	    	    		<p class="cardtex">Це правило призначене для персонажів гравців та персонажів майстра, які мають рівень, але не для монстрів, у яких рівнів немає.</p>
+	      			<table class="culc" align="center">
+	    	    			<thead>
+	    	    				<tr>
+	    	    					<td>
+	    	    						Рівень
+	    	    					</td>
+	    	    					<td>
+	    	    						Бонус Майстерності
+	    	    					</td>
+	    	    					<td>
+	    	    						Кістка
+	    	    					</td>
+	    	    				</tr>
+	    	    			</thead>
+	    	    			<tbody>
+	    	    				<tr class="tabl">
+	    	    					<td>
+	    	    						1-4
+	    	    					</td>
+	    	    					<td>
+	    	    						+2
+	    	    					</td>
+	    	    					<td>
+	    	    						1d4
+	    	    					</td>
+	    	    				</tr>
+	    	    				<tr class="tabl">
+	    	    					<td>
+	    	    						5-8
+	    	    					</td>
+	    	    					<td>
+	    	    						+3
+	    	    					</td>
+	    	    					<td>
+	    	    						1d6
+	    	    					</td>
+	    	    				</tr>
+	    	    				<tr class="tabl">
+	    	    					<td>
+	    	    						9-12
+	    	    					</td>
+	    	    					<td>
+	    	    						+4
+	    	    					</td>
+	    	    					<td>
+	    	    						1d8
+	    	    					</td>
+	    	    				</tr>
+	    	    				<tr class="tabl">
+	    	    					<td>
+	    	    						13-16
+	    	    					</td>
+	    	    					<td>
+	    	    						+5
+	    	    					</td>
+	    	    					<td>
+	    	    						1d10
+	    	    					</td>
+	    	    				</tr>
+	    	    				<tr class="tabl">
+	    	    					<td>
+	    	    						17-20
+	    	    					</td>
+	    	    					<td>
+	    	    						+6
+	    	    					</td>
+	    	    					<td>
+	    	    						1d12
+	    	    					</td>
+	    	    				</tr>
+	    	    			</tbody>
+	    	    		</table>
+	    	    	</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="Sanity">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Розсудливість</p>
+	      	  		<p class="cardingp">Sanity</p>
+	        			<p class="cardmatp">Dungeon master’s guide</p>
+	        			<hr>
+	    	    		<p class="cardtex">Ви можете використовувати характеристику Розсудливість, якщо ваша кампанія обертається навколо сутностей із зовсім чужою та невимовною натурою, як Великий Ктулху, чиї сили та поплічники можуть зламати розум персонажа.</p>
+	    	    		<p class="cardtex">Персонаж з високим Розсудливістю залишається врівноважений навіть перед обличчям божевільних обставин, тоді як персонаж з низьким Розсудливістю легко ламається при зіткненні з надприродним жахом, що виходить за межі норми.</p>
+	    	    		<p class="cardtex"><b>Перевірка Розсудливості.</b> Ви можете попросити персонажів здійснити перевірку Розсудливості замість перевірки Інтелекту, щоб згадати відомості про чужорідні божевільні істоти з вашої кампанії, щоб розшифрувати написане божевільним або щоб вивчити закляття з книги із забороненим знанням. Крім того, ви можете просити про перевірку Розсудливості, коли персонаж займається такими діями:</p>
+	    	    		<ul>
+	    	    			<li>
+	    	    				Розшифровка тексту, написаного такою чужою мовою, що це загрожує звести персонажа з розуму
+	    	    			</li>
+	    	    			<li>
+	    	    				Подолання довгострокових ефектів божевілля
+	    	    			</li>
+	    	    			<li>
+	    	    				Розуміння чужорідної магії, яка не використовує стандартні підходи
+	    	    			</li>
+	    	    		</ul>
+	    	    		<p class="cardtex"><b>Ряткидки Розсудливості.</b> Ви можете попросити здійснити ряткидки Розсудливості, коли персонаж стикається з ризиком безумства, наприклад, у таких ситуаціях:</p>
+	    	    		<ul>
+	    	    			<li>
+	    	    				Перша зустріч із істотами з Далекої Межі чи інших чужорідних світів
+	    	    			</li>
+	    	    			<li>
+	    	    				Прямий контакт із розумом чужорідної істоти
+	    	    			</li>
+	    	    			<li>
+	    	    				Ефект заклинань, що впливають на психічну стійкість, таких як опція «божевілля» закляття знак
+	    	    			</li>
+	    	    			<li>
+	    	    				Перебування на деміплані, побудованому на чужорідних законах фізики
+	    	    			</li>
+	    	    			<li>
+	    	    				Стійкість ефекту, накладеному атакою або закляттям, що завдає урон психічною енергією
+	    	    			</li>
+	    	    		</ul>
+	    	    		<p class="cardtex">Провалений ряткидок Розсудливості призводить до короткочасного, довгострокового чи безстрокового божевілля. Щоразу, коли персонаж отримує довготривале чи безстрокове божевілля, його Розсудливість зменшується на 1.</p>
+	    	    		<p class="cardtex">Закляття вище відновлення [greater restoration] може відновити витрачене через це Розсудливість, і персонаж може збільшувати Розсудливість при збільшенні рівня.</p>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<div class="popup" id="Honor">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">Честь</p>
+	      	  		<p class="cardingp">Honor</p>
+	        			<p class="cardmatp">Dungeon master’s guide</p>
+	        			<hr>
+	    	    		<p class="cardtex">Якщо ваша кампанія проходить у культурі, де жорсткий кодекс честі є частиною повсякденного життя, ви можете використовувати Честь як інструмент вимірювання прихильності персонажа до такого кодексу. Він добре вписується у світ, натхненний азіатськими культурами, наприклад Кара-Тур у Забутих Королівствах. Характеристика Честь також добре підходить кампаніям, які обертаються навколо лицарських орденів.</p>
+	    	    		<p class="cardtex">Честь вимірює як відданість персонажа кодексу, а й глибину розуміння цього кодексу. Значення Честі може відображати те, як інші сприймають честь персонажа. У персонажа з високою Честю зазвичай буде репутація, про яку відомо іншим, особливо тим, хто теж має високу Честь.</p>
+	    	    		<p class="cardtex">На відміну від інших характеристик, честь не може бути збільшена, коли дозволяється збільшувати звичайні характеристики. Натомість ви можете збільшувати (або зменшувати) честь персонажа залежно від його дій. Наприкінці кожної пригоди, якщо ви вважаєте, що дії персонажа добре відображали зміст його кодексу честі, ви можете збільшити його честь на 1. Як і всі інші характеристики, честь не може бути більше 20 або менше 1.</p>
+	    	    		<p class="cardtex"><b>Перевірки Честі.</b> Перевірки Честі можуть використовуватися в ситуаціях соціальної взаємодії, як і Харизма, коли розуміння персонажем відповідних правил поведінки є визначальним чинником того, яким буде результат соціальної взаємодії.</p>
+	    	    		<p class="cardtex">Ви також можете вимагати здійснення перевірки Честі, коли персонаж знаходиться в одній із наступних ситуацій:</p>
+	    	    		<ul>
+	    	    			<li>
+	    	    				Персонаж не впевнений, як діяти, зберігаючи честь
+	    	    			</li>
+	    	    			<li>
+	    	    				Персонаж здається, намагаючись зберегти обличчя
+	    	    			</li>
+	    	    			<li>
+	    	    				Персонаж намагається визначити значення Честі іншого персонажа
+	    	    			</li>
+	    	    			<li>
+	    	    				Персонаж намагається дотримуватись правил етикету в делікатній соціальній ситуації
+	    	    			</li>
+	    	    			<li>
+	    	    				Персонаж хоче використати свою благочестиву чи безчесну репутацію, щоб вплинути на когось.
+	    	    			</li>
+	    	    		</ul>
+	    	    		<p class="cardtex"><b>Ряткидки Честі.</b> Ряткидки Честі вступають у гру в ситуаціях, коли персонаж може ненавмисно зробити щось ганьбливе. Можна вимагати зробити ряткидок Честі в наступних ситуаціях:</p>
+	    	    		<ul>
+	    	    			<li>
+	    	    				Уникнення випадкового порушення етикету
+	    	    			</li>
+	    	    			<li>
+	    	    				Опір бажанню відповісти на образи ворога
+	    	    			</li>
+	    	    			<li>
+	    	    				Пізнання спроби ворога обманом змусити персонажа вчинити безчесно
+	    	    			</li>
+	    	    		</ul>
+	      		</div>
+   	   	</div>
+   	   </div>
+			<!--div class="popup" id="test">
+      		<div class="popup_body">
+      			<div class="popup_content">
+		   			<a href="###" class="popup_close close-popup">Х</a>
+	   	     		<p class="cardnamp">xxx</p>
+	      	  		<p class="cardingp">xxx</p>
+	        			<p class="cardmatp">xxx</p>
+	        			<hr>
+	    	    		<p class="cardtex">ххх</p>
+	      		</div>
+   	   	</div>
+   	   </div-->
+      </div>
+
+		<footer>
+			<div class="bodhomeft">
+				<div>
+					<a href="https://t.me/rumble_dice_bot">Зворотній зв'язок</a>
+				</div>
+				<div>
+					<span>Ми у соц мережах</span> 
+					  
+					<a href="https://t.me/rumbledice"><img class="log" src="../img/logotg.png" alt=""></a>
+					  
+					<a href="https://t.me/rumble_dice"><img class="log" src="../img/logotg.png" alt=""></a>
+					  
+						<a href="https://www.youtube.com/channel/UCilttdHSg1t5Y3Kk7j3frhg"><img class="log" src="../img/logoyt.png" alt=""></a>
+					  
+						<a href="https://discord.gg/ygTFYRvu6v"><img class="log"src="../img/logods.png" alt=""></a>
+				</div>
+			</div>
+			<div>
+				<span  class="disclaimer">
+						Матеріали на нашому веб-сайті надаються безкоштовно та лише в ознайомлювальних цілях некомерційного характеру, а також не виключають необхідність купівлі офіційних металів.
+						
+						<br>
+
+						Dungeons&Dragons, D&D, їх логотип, усі персонажі та оригінальні назви є власністю Wizards of the Coast LLC у США та інших країнах. © Wizards
+				</span>
+			</div>
+		</footer>
+	<script src="../js/main.js"></script>
+	<script src="../js/popup.js"></script>
+</body>
+</html>
