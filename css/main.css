@@ -492,7 +492,7 @@ body.lock{
 .culc{
   text-align: center;
   width: 40%;
-  border-spacing: 0px 10px;
+  border-spacing: 0px 15px;
 }
 
 td{
@@ -662,6 +662,10 @@ footer{
 }
 
 @media screen and (max-width: 767px) {
+header{
+  margin-right: 5px
+}
+
 .bodhome{
 	display: block;
 }
