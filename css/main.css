@@ -495,7 +495,7 @@ body.lock{
 
 .culc{
   text-align: center;
-  width: 40%;
+  /*width: 40%;*/
   border-spacing: 0px 15px;
   font-weight: 500;
 }
