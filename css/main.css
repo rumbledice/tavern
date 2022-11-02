@@ -618,6 +618,20 @@ input.cardnam{
   width: 65%;
   margin-left: 5%;
   margin-top: 0px;
+  border-bottom: 1px solid #000;
+}
+
+input.rj{
+  width: 50%;
+  background-color: #1A1A1A;
+  margin: 5%;
+  padding: 0%;
+  border-bottom: 1px solid #fff;
+}
+
+.rj{
+  margin: 5%;
+  padding: 0%;
 }
 
 
