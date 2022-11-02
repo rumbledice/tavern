@@ -2312,6 +2312,46 @@
 	    	    		</table>
 						</div>
 				</details>
+				<details>
+					<summary>
+							<div class="card">
+								<p class="cardnam">Обрати монстрів</p>
+								<p class="carding">Select Monsters</p>
+							</div>
+					</summary>
+						<div class="content">
+							<p class="rj">Рівень гравця:
+			            <input class="rj" id="num1"/></p>
+			            <p class="rj">Рівень монстра:
+			            <input class="rj" id="num2"/></p>
+			            <button  class="rj" onclick="func()">Розрахувати кількість гравців до монстрів</button>
+			               
+			             <p id="result" class="result rj"></p>
+						</div>
+				</details>
+				<details>
+					<summary>
+							<div class="card">
+								<p class="cardnam">Метри в Фути</p>
+								<p class="carding">(m в ft)</p>
+							</div>
+					</summary>
+						<div class="content">
+				     		<div class="card">
+						      <form oninput="result.value=(ft.value/3.281).toFixed(2)">
+				               <p class="cardnam">Фут: 
+				               <input class="cardnam" type="number" name="ft" autofocus></p>
+				               <p class="cardnam">Метр: <output name="result">0</output></p>
+				            </form>	
+				         </div>
+				         <div class="card">
+						      <form oninput="result.value=(m.value*3.281).toFixed(2)">
+				               <p class="cardnam">Метр: 
+				               <input class="cardnam" type="number" name="m" autofocus></p>
+				               <p class="cardnam">Фут: <output name="result">0</output></p>
+				            </form>	
+				         </div>
+				</details>
 		</div>
 
 
@@ -5445,5 +5485,6 @@
 		</footer>
 	<script src="../js/main.js"></script>
 	<script src="../js/popup.js"></script>
+	<script src="../js/battle calculator.js"></script>
 </body>
 </html>

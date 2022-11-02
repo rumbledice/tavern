@@ -602,7 +602,23 @@ body {font-family: "Lato", sans-serif;}*/
   margin: -5%;
 }
 
+.rj{
+  background-color: #1A1A1A;
+  border: 0px;
+  color: #fff;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+}
 
+input.cardnam{
+  border: 0px;
+  background-color: #fff;
+  width: 65%;
+  margin-left: 5%;
+  margin-top: 0px;
+}
 
 
 
