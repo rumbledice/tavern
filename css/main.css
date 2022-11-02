@@ -634,6 +634,13 @@ input.rj{
   padding: 0%;
 }
 
+.text_stand{
+  text-align: left;
+}
+
+.tablf{
+  text-align: left;
+}
 
 
 
@@ -711,6 +718,10 @@ input.rj{
 }
 
 td{
+  font-size: 18px;
+}
+
+.text_stand{
   font-size: 18px;
 }
 }
@@ -813,6 +824,10 @@ footer{
 }
 
 td{
+  font-size: 15px;
+}
+
+.text_stand{
   font-size: 15px;
 }
 
@@ -926,6 +941,10 @@ td{
 }
 
 
+.text_stand{
+  font-size: 13px;
+}
+
 }
 
 
@@ -979,6 +998,10 @@ h4{
 
 
 td{
+  font-size: 11px;
+}
+
+.text_stand{
   font-size: 11px;
 }
 
