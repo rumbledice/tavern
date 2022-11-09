@@ -269,6 +269,10 @@ margin:0 auto;
   width: 200px;
 }
 
+.nar{
+  text-align: left;
+}
+
 .nam{
   text-align: left;
   flex: none;
@@ -276,25 +280,23 @@ margin:0 auto;
   flex-grow: 0;
   float: left;
   margin: 20px;
-  width: 50%;
-}
-
-.nammm{
-  height: 330px;
-  margin: 20px;
+  width: 55%;
+  display: block;
 }
 
 .topic{
   font-size: 30px;
   font-weight: 600;
+  text-align: left;
 }
 
 .topic_min{
   color: #c0c0c0;
   font-size: 20px;
+  text-align: left;
 }
 
-.topic_text{
+.topic_text .parar .tablinks .nar{
   font-size: 15px;
 }
 
@@ -599,7 +601,7 @@ body {font-family: "Lato", sans-serif;}*/
 .cardingtab{
   color: #4E4E4E;
   font-weight: 600;
-  margin: -5%;
+  margin-bottom: -5%;
 }
 
 .rj{
@@ -641,6 +643,39 @@ input.rj{
 .tablf{
   text-align: left;
 }
+/*
+.carras{
+  width: 100%;
+  margin-top: 5px;
+  display: block;
+}*/
+
+.bloo{
+  width: 100%;
+  display: block;
+}
+
+.rood{
+  margin-top: 5%;
+
+}
+
+.nammm{
+  width: 25%;
+  margin: 20px;
+}
+
+img.crrr{
+  width: 20%;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -724,6 +759,11 @@ td{
 .text_stand{
   font-size: 18px;
 }
+
+.nammm{
+  width: 40%;
+}
+
 }
 
 @media screen and (max-width: 992px) {
@@ -778,7 +818,8 @@ footer{
 }
 
 .nammm{
-  height: 440px
+  width: 80%
+  margin: 100px;
 }
 
 .nam{
@@ -900,13 +941,13 @@ margin:0 auto;
   width: 130px;
 }
 
-.topic_text{
+.topic_text .parar .tablinks .nar{
   font-size: 10px;
 }
 
-.nammm{
+/*.nammm{
   height: 240px;
-}
+}*/
 
 footer a, span{
   font-size: 8px;
@@ -929,9 +970,12 @@ footer a, span{
   font-size: 25px;
 }
 
-.tab {
-  width: 35%;
+
+
+.tab{
+  width: 80%
 }
+
 .tabcontent {
   width: 50%;
 }
@@ -960,8 +1004,6 @@ td{
 
 }
 
-
-
 .cart{
   width: 100px;
   height: 120px;
@@ -989,10 +1031,6 @@ h4{
 
 .culc{
   width: 90%
-}
-
-.tab {
-  width: 40%;
 }
 
 
