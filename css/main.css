@@ -669,6 +669,52 @@ img.crrr{
   width: 20%;
 }
 
+.culcttt table{
+  text-align: left;
+}
+
+ul{
+  text-align: left;
+}
+
+/*
+.nams{
+  width: 80%;
+}
+.cartings{
+  position: absolute;
+}
+
+.tab{
+  margin-right: 0px;
+  padding-right: 0px;
+}*/
+
+summary{
+  text-align: left;
+}
+
+details{
+  display: block;
+  width: 100%;
+}
+
+.topic_text{
+  text-align: left;
+}
+
+li{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -699,6 +745,9 @@ img.crrr{
 
 @media screen and (max-width: 1450px) {
 
+.nam{
+  width: 100%;
+}
 .menu{
 	left: 50%;
 }
@@ -718,6 +767,7 @@ img.crrr{
 }
 
 @media screen and (max-width: 1200px) {
+
 
 .menu{
 	left: 40%;
@@ -915,7 +965,14 @@ margin:0 auto;
 	width: 95%
 }
 
+.tabcontent{
+  width: 100%;
+}
 
+.carting span{
+  margin-top: -5px;
+  font-size: 15px;
+}/*lllllllllllllllolllllllll*/
 
 
 
@@ -951,12 +1008,12 @@ margin:0 auto;
 
 footer a, span{
   font-size: 8px;
-}
+}/*
 
 .carting{
   width: 75px;
   height: 40px;
-}
+}*/ 
 
 .card{
   width: 60%;
@@ -974,10 +1031,6 @@ footer a, span{
 
 .tab{
   width: 80%
-}
-
-.tabcontent {
-  width: 50%;
 }
 
 td{
