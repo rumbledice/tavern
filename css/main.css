@@ -156,8 +156,8 @@ header {
 }
 
 .content{
-  width: 85%;
-  margin-left: 10%;
+  width: 90%;
+  margin-left: 5%;
   margin-right: 150%;
 	padding: 40px;
  float: left;
@@ -281,7 +281,7 @@ margin:0 auto;
   order: 1;
   flex-grow: 0;
   float: left;
-  margin: 80px;
+  margin: 60px;
 }
 
 
