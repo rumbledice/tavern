@@ -34,24 +34,42 @@ a{
 	color: #fff;
 }
 
+.nzd {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0%;
+  right: 95%;
+  width: 15%;
+  padding-top: 15px;
+  z-index: 50;
+}
+
+.nzd-btn {
+  height: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+
 header {
-	display: flex;
-	justify-content: flex-end;
-	position: fixed;
-	top: 0%;
-	left: 84%;
-	width: 15%;
-	padding-top: 15px;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0%;
+  left: 84%;
+  width: 15%;
+  padding-top: 15px;
   z-index: 50;
 }
 
 
 /* Гамбургер */
 .menu-btn {
-	width: 30px;
-	height: 30px;
-	position: relative;
-	overflow: hidden;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  overflow: hidden;
 }
 
 .menu-btn span {
@@ -118,6 +136,7 @@ header {
 .logo	{
 	height: 100px;
 	margin: 10px;
+  margin-right: 20px;
 
 	box-shadow: 0px 0px 10px #000000, -5px -5px 0px #26CEAA, 5px 5px 0px #5049CC;
 	border-radius: 100%;
@@ -148,6 +167,22 @@ header {
 .menu h2,span{
 	color: #fff;
 }
+
+.carsimg:hover{
+  width: 220px;
+}
+
+.log:hover{
+  height: 20px;
+}
+
+.logo:hover{
+  height: 120px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
+
 
 
 .bcw{
@@ -250,7 +285,6 @@ margin:0 auto;
   float: left;
   margin: 20px;
 }
-
 
 .cartext{
   text-align: center;
@@ -879,7 +913,11 @@ footer{
 }
 
 .log{
-  height: 8px
+  height: 8px;
+}
+
+.log{
+  height: 10px;
 }
 
 
@@ -1020,9 +1058,8 @@ margin:0 auto;
   font-size: 10px;
 }
 
-
 .cartimg{
-  width: 130px;
+  width: 143px;
 }
 
 
@@ -1039,6 +1076,11 @@ margin:0 auto;
 
 .carsimg{
   width: 150px;
+}
+
+
+.carsimg:hover{
+  width: 180px;
 }
 
 .topic_text .parar .tablinks .nar{
@@ -1135,6 +1177,11 @@ td{
 
 .carsimg{
   width: 100px;
+}
+
+
+.carsimg:hover{
+  width: 120px;
 }
 
 h4{
