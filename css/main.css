@@ -42,7 +42,7 @@ a{
   right: 95%;
   width: 15%;
   padding-top: 15px;
-  z-index: 50;
+  z-index: 150;
 }
 
 .nzd-btn {
@@ -57,17 +57,17 @@ header {
   justify-content: flex-end;
   position: fixed;
   top: 0%;
-  left: 84%;
-  width: 15%;
+  left: 95%;
+ /* width: 15%;*/
   padding-top: 15px;
-  z-index: 50;
+  z-index: 150;
 }
 
 
 /* Гамбургер */
 .menu-btn {
   width: 30px;
-  height: 30px;
+  height: 40px;
   position: relative;
   overflow: hidden;
 }
@@ -107,7 +107,7 @@ header {
 .menu {
 	position: fixed;
 	top: 10px;
-	left: 60%;
+	left: 57%;
 	min-width: 22%;
 	min-height: 90%;
 	max-width: 45%;
@@ -192,9 +192,13 @@ header {
 
 .content{
   width: 90%;
-  margin-left: 5%;
-  margin-right: 150%;
-	padding: 40px;
+  /*margin-left: 5%;
+  margin-right: 5%;
+  margin-right: 150%;*/
+  /*display: block;*/
+  margin-left: auto;
+  margin-right: auto
+	/*padding: 30px;*/
  float: left;
   text-align: center;
 
@@ -545,7 +549,7 @@ body.lock{
 
 .contentp{
   width: 90%;
-  margin-right: 150%;
+ margin-right: 150%;
   padding: 40px;
  float: left;
   text-align: center;
@@ -880,7 +884,8 @@ td{
 @media screen and (max-width: 992px) {
 
 header{
-  padding: 15px;
+  /*padding: 15px;*/
+  left: 90%
 }
 
 .bodhome{
@@ -925,7 +930,10 @@ footer{
   padding: 2px;
   padding-top: 40px;
   /*padding-bottom: 20px;*/
-
+ /* width: 90%;
+  margin-left: 5%;
+  margin-right: 150%;
+*/
 }
 
 .tabs__links a{
@@ -987,12 +995,35 @@ td{
   font-size: 15px;
 }
 
+.cart{
+  width: 143px;
+  height: 171px;
+  margin: 10px;
+}
+
+.cartext{
+  width: 143px;
+  height: 20px;
+  top: -35px;
+  font-weight: 550;
+}
+
+.cartext p{
+  font-size: 12px;
+}
+
+.cartimg{
+  width: 143px;
+}
+
 
 }
 
 @media screen and (max-width: 767px) {
-header{
-  left: 78%;
+
+
+.nzd {
+  right: 90%;
 }
 
 .bodhome{
@@ -1041,32 +1072,10 @@ margin:0 auto;
 
 
 
-.cart{
-  width: 130px;
-  height: 160px;
-  margin: 10px;
-}
-
-.cartext{
-  width: 130px;
-  height: 20px;
-  top: -30px;
-  font-weight: 550;
-}
-
-.cartext p{
-  font-size: 10px;
-}
-
-.cartimg{
-  width: 143px;
-}
-
-
 .cars{
   width: 150px;
   height: 150px;
-  
+  margin: 20px;
 }
 
 
@@ -1136,9 +1145,12 @@ td{
   padding: 0;
 }
 
+header{
+  left: 80%;
+}
+
 .content{
-  width: 80%;
-  left: 15%;
+  width: 80%
 
 }
 
@@ -1151,7 +1163,7 @@ td{
 .cartext{
   width: 100px;
   height: 15px;
-  top: -28px;
+  top: -27px;
   font-weight: 550;
 }
 
@@ -1202,5 +1214,9 @@ td{
   font-size: 11px;
 }
 
+
+.nzd {
+  right: 85%;
+}
 
 }
