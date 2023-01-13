@@ -192,11 +192,11 @@ header {
 
 .content{
   width: 90%;
-  /*margin-left: 5%;
+  margin-left: 5%;
   margin-right: 5%;
-  margin-right: 150%;*/
+  margin-right: 150%;
   /*display: block;*/
-  margin-left: auto;
+  /*margin-left: auto;
   margin-right: auto
 	/*padding: 30px;*/
  float: left;
@@ -771,6 +771,59 @@ details{
 li{
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.hide{
+  animation-name: a1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.hidey{
+  animation-name: a1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes a1{
+  to {
+    opacity:0;
+    height: 0;
+    width: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+  position: fixed;
+  top: 150%;
+  right: 150%;
+  }
+}
+
+.filt{
+  display: inline-block;
+  /*border: 1px solid  #fff;*/
+  /*min-height: 50px;
+  min-width: 50px;*/
+  margin: 10px;
+
+
+  color: black;
+  padding: 10px;
+  border: none;
+  outline: none;
+  text-align: center;
+  cursor: pointer;/*
+  transition: 0.3s;
+  font-size: 17px;*/
+
+  background: #fff;
+  box-shadow: 0px 0px 10px #000000, -5px -5px 0px #26CEAA, 5px 5px 0px #5049CC;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.hides{
+  display: none;
 }
 
 
