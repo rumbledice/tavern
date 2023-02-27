@@ -192,6 +192,7 @@ header {
 
 .content{
   width: 90%;
+  margin-top: 70px;
   margin-left: 5%;
   margin-right: 5%;
   margin-right: 150%;
@@ -397,8 +398,10 @@ summary::marker {
 }
 
 .carras{
-  width: 85%;
-  margin: 40px;
+  width: 95%;
+  margin-right: 5%;
+  margin-left: 5%;
+ /*margin-top: 15%;*/
 }
 
 .parar{
@@ -406,7 +409,52 @@ summary::marker {
  /* text-align: left;*/
 }
 
+.inp{
+  width: 100%;
+  /*height: 25px;*/
+  background: #1a1a1a/*fff*/;
+  color: #fff;
+  border: none;
+  border-bottom: 1px solid  rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  /*box-shadow: 0px 0px 10px #000000, -3px -3px 0px #26CEAA, 3px 3px 0px #5049CC;*/
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.inpk{
+  width: 2%;
+}
+
+.imgspell{
+  float: left;
+  width: 15%;
+  margin-top: 8%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.searchableу {
+  display: block;
+  margin-bottom: 20px;
+}
+
 .card{
+  width: 25%;
+  /*height: 120px;*/
+  background: #fff;
+  box-shadow: 0px 0px 10px #000000, -5px -5px 0px #26CEAA, 5px 5px 0px #5049CC;
+  border-radius: 5px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  float: left;
+  margin: 20px;
+  color: #000;
+  text-align: left;
+}
+
+.cardspell{
   width: 25%;
   /*height: 120px;*/
   background: #fff;
@@ -467,12 +515,20 @@ summary::marker {
   text-align: left;
 }
 
+.inpimg{
+  width: 20px;
+  display: block;
+  /*margin: 0 auto;*/
+  float: right;
+  margin: 0 0 10px 10px;
+}
 
 .cardingp{
   color: #4E4E4E;
   font-weight: 600;
   margin-top: -3%;
   margin: 5px;
+  font-size: 18px;
 }
 
 .cardmatp{
@@ -480,6 +536,10 @@ summary::marker {
   font-weight: 600;
   margin-top: -3%;
   margin: 5px;
+}
+
+.cardmatp b{
+  color: #1F1F1F;
 }
 
 .cardtexp{
@@ -527,6 +587,7 @@ body.lock{
   max-width: 80%;
   padding: 30px;
   position: relative;
+  text-align: left;
   /*margin-top: 5%;
   margin-bottom: 5%;*/
 }
@@ -720,6 +781,25 @@ input.rj{
   display: block;
 }
 
+
+.blood{
+
+  width: 100%;
+  margin-left: 5%;
+  margin-right: 150%;
+  /*display: block;*/
+  /*margin-left: auto;
+  margin-right: auto
+  /*padding: 30px;*/
+ /*float: left;
+  text-align: center;
+
+
+  /*position: relative;
+  left: 10%;*/
+  display: block;
+}
+
 .rood{
   margin-top: 5%;
 
@@ -727,7 +807,6 @@ input.rj{
 
 .nammm{
   width: 25%;
-  margin: 20px;
 }
 
 img.crrr{
@@ -773,13 +852,67 @@ li{
   margin-bottom: 10px;
 }
 
-.hide{
+.hidex{
   animation-name: a1;
   animation-duration: 1s;
   animation-fill-mode: forwards;
 }
 
 .hidey{
+  animation-name: a1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.hidef{
+  animation-name: a1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.hideh{
+  animation-name: a1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.hidej{
+  animation-name: a1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.hidek{
+  animation-name: a1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.hidem{
+  animation-name: a1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.hidep{
+  animation-name: a1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.hideq{
+  animation-name: a1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.hider{
+  animation-name: a1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.hidet{
   animation-name: a1;
   animation-duration: 1s;
   animation-fill-mode: forwards;
@@ -826,6 +959,11 @@ li{
   display: none;
 }
 
+.pfil{
+  text-align: left;
+  font-weight: 600;
+  font-size: 18px;
+}
 
 
 
