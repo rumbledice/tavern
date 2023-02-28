@@ -965,6 +965,12 @@ li{
   font-size: 18px;
 }
 
+.spell{
+  width: 20%;
+  overflow-y: auto;
+  height: 100px;
+}
+
 
 
 
@@ -1013,6 +1019,10 @@ li{
   font-size: 15px;
 }
 
+.spell{
+  height: 90px;
+}
+
 .carding{
   font-size: 12px;
 }
@@ -1040,6 +1050,10 @@ li{
 
 .cardnam{
   font-size: 11px;
+}
+
+.spell{
+  height: 65px;
 }
 
 .carding{
@@ -1147,6 +1161,12 @@ footer{
 
 .cardnam{
   font-size: 11px;
+}
+
+.spell{
+  width: 27%;
+  overflow-y: auto;
+  /*height: 60px;*/
 }
 
 .carding{
@@ -1327,6 +1347,11 @@ td{
   font-size: 13px;
 }
 
+.spell{
+  width: 43%;
+  height: 80px;
+}
+
 }
 
 
@@ -1408,6 +1433,11 @@ td{
 
 .nzd {
   right: 85%;
+}
+
+.spell{
+  width: 40%;
+  height: 65px;
 }
 
 }
