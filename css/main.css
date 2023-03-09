@@ -1086,7 +1086,24 @@ li{
   background-color: #98e8c1;
 }
 
+input.cardnam{
+  background: rgba(255, 255, 255, 0);
+}
 
+input:focus {
+    outline: none;
+}
+
+select {
+    color: red; /* змінює колір стрілочок на червоний */
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
 
 
 
@@ -1642,8 +1659,8 @@ td{
 }
 
 .spell{
-  width: 40%;
-  height: 65px;
+  width: 90%;
+  height: 75px;
 }
 
 }
