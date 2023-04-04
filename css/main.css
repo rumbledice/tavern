@@ -1260,6 +1260,9 @@ input[type=number]::-webkit-outer-spin-button {
 	left: 50%;
 }
 
+.spelll{
+  font-size: 15px;
+}
 
 .cardnam{
   font-size: 15px;
@@ -1283,6 +1286,10 @@ input[type=number]::-webkit-outer-spin-button {
 
 .menu{
 	left: 40%;
+}
+
+.spelll{
+  font-size: 15px;
 }
 
 .bodhomeft{
@@ -1339,6 +1346,10 @@ header{
   left: 90%
 }
 
+.spelll{
+  font-size: 15px;
+}
+
 .bodhome{
 	display: block;
 }
@@ -1389,6 +1400,10 @@ footer{
 
 .tabs__links a{
   font-size: 8px;
+}
+
+.spelll{
+  font-size: 15px;
 }
 
 .nammm{
@@ -1481,6 +1496,10 @@ td{
 
 .nzd {
   right: 90%;
+}
+
+.spelll{
+  font-size: 15px;
 }
 
 .bodhome{
@@ -1609,6 +1628,10 @@ td{
 .tabs__links {
   width: 40%;
   padding: 0;
+}
+
+.spelll{
+  font-size: 15px;
 }
 
 header{
