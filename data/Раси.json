@@ -1,0 +1,404 @@
+[
+    {
+        "racePage": "Раси/Aasimar.html",
+        "img": "../img/Aasimar_crt.png",
+        "title_ua": "Аасімар",
+        "title_en": "Aasimar"
+    },
+    {
+        "racePage": "Раси/Aarakocra.html",
+        "img": "../img/Aarakocra_crt.png",
+        "title_ua": "Ааракокра",
+        "title_en": "Aarakocra"
+    },
+    {
+        "racePage": "Раси/Aven.html",
+        "img": "../img/Aven_crt.png",
+        "title_ua": "Авен",
+        "title_en": "Aven"
+    },
+    {
+        "racePage": "Раси/Autognome.html",
+        "img": "../img/Autognome_crt.png",
+        "title_ua": "Автоном",
+        "title_en": "Autognome"
+    },
+    {
+        "racePage": "Раси/Bugbear.html",
+        "img": "../img/Bugbear_crt.png",
+        "title_ua": "Багбір",
+        "title_en": "Bugbear"
+    },
+    {
+        "racePage": "Раси/Vampire.html",
+        "img": "../img/Vampire_crt.png",
+        "title_ua": "Вампір",
+        "title_en": "Vampire"
+    },
+    {
+        "racePage": "Раси/Vedalken.html",
+        "img": "../img/Vedalken_crt.png",
+        "title_ua": "Ведалкен",
+        "title_en": "Vedalken"
+    },
+    {
+        "racePage": "Раси/Verdan.html",
+        "img": "../img/Verdan_crt.png",
+        "title_ua": "Вердан",
+        "title_en": "Verdan"
+    },
+    {
+        "racePage": "Раси/Shifter.html",
+        "img": "../img/Shifter_crt.png",
+        "title_ua": "Виверт",
+        "title_en": "Shifter"
+    },
+    {
+        "racePage": "Раси/Warforged.html",
+        "img": "../img/Warforged_crt.png",
+        "title_ua": "Викований",
+        "title_en": "Warforged"
+    },
+    {
+        "racePage": "Раси/Reborn.html",
+        "img": "../img/Reborn_crt.png",
+        "title_ua": "Відроджений",
+        "title_en": "Reborn"
+    },
+    {
+        "racePage": "Раси/Viashino.html",
+        "img": "../img/Viashino_crt.png",
+        "title_ua": "Вяшино",
+        "title_en": "Viashino"
+    },
+    {
+        "racePage": "Раси/SimicHybrid.html",
+        "img": "../img/SimicHybrid_crt.png",
+        "title_ua": "Гібрид Симіків",
+        "title_en": "Simic Hybrid"
+    },
+    {
+        "racePage": "Раси/Giff.html",
+        "img": "../img/Giff_crt.png",
+        "title_ua": "Гіфф",
+        "title_en": "Giff"
+    },
+    {
+        "racePage": "Раси/Glitchling.html",
+        "img": "../img/Glitchling_crt.png",
+        "title_ua": "Глітчлінг",
+        "title_en": "Glitchling"
+    },
+    {
+        "racePage": "Раси/Gnome.html",
+        "img": "../img/Gnome_crt.png",
+        "title_ua": "Гном",
+        "title_en": "Gnome"
+    },
+    {
+        "racePage": "Раси/Goblin.html",
+        "img": "../img/Goblin_crt.png",
+        "title_ua": "Гоблін",
+        "title_en": "Goblin"
+    },
+    {
+        "racePage": "Раси/Goliath.html",
+        "img": "../img/Goliath_crt.png",
+        "title_ua": "Голіаф",
+        "title_en": "Goliath"
+    },
+    {
+        "racePage": "Раси/Grung.html",
+        "img": "../img/Grung_crt.png",
+        "title_ua": "Грунг",
+        "title_en": "Grung"
+    },
+    {
+        "racePage": "Раси/Githyanki.html",
+        "img": "../img/Githyanki_crt.png",
+        "title_ua": "Ґіт'янки",
+        "title_en": "Githyanki"
+    },
+    {
+        "racePage": "Раси/Githzerai.html",
+        "img": "../img/Githzerai_crt.png",
+        "title_ua": "Ґітзерай",
+        "title_en": "Githzerai"
+    },
+    {
+        "racePage": "Раси/Dhamphir.html",
+        "img": "../img/Dhamphir_crt.png",
+        "title_ua": "Дампір",
+        "title_en": "Dhamphir"
+    },
+    {
+        "racePage": "Раси/Dwarf.html",
+        "img": "../img/Dwarf_crt.png",
+        "title_ua": "Дворф",
+        "title_en": "Dwarf"
+    },
+    {
+        "racePage": "Раси/GenasiWater.html",
+        "img": "../img/GenasiWater_crt.png",
+        "title_ua": "Дженазі Води",
+        "title_en": "Genasi Water"
+    },
+    {
+        "racePage": "Раси/GenasiEarthr.html",
+        "img": "../img/GenasiEarthr_crt.png",
+        "title_ua": "Дженазі Землі",
+        "title_en": "Genasi Earthr"
+    },
+    {
+        "racePage": "Раси/GenasiAir.html",
+        "img": "../img/GenasiAir_crt.png",
+        "title_ua": "Дженазі Повітря",
+        "title_en": "Genasi Air"
+    },
+    {
+        "racePage": "Раси/GenasiFair.html",
+        "img": "../img/GenasiFair_crt.png",
+        "title_ua": "Дженазі Полум'я",
+        "title_en": "Genasi Fair"
+    },
+    {
+        "racePage": "Раси/Dragonborn.html",
+        "img": "../img/Dragonborn_crt.png",
+        "title_ua": "Дракононароджений",
+        "title_en": "Dragonborn"
+    },
+    {
+        "racePage": "Раси/Elf.html",
+        "img": "../img/Elf_crt.png",
+        "title_ua": "Ельф",
+        "title_en": "Elf"
+    },
+    {
+        "racePage": "Раси/Aetherborn.html",
+        "img": "../img/Aetherborn_crt.png",
+        "title_ua": "Ефіронароджений",
+        "title_en": "Aetherborn"
+    },
+    {
+        "racePage": "Раси/Changeling.html",
+        "img": "../img/Changeling_crt.png",
+        "title_ua": "Змінник",
+        "title_en": "Changeling"
+    },
+    {
+        "racePage": "Раси/Kalashtar.html",
+        "img": "../img/Kalashtar_crt.png",
+        "title_ua": "Калаштар",
+        "title_en": "Kalashtar"
+    },
+    {
+        "racePage": "Раси/Kender.html",
+        "img": "../img/Kender_crt.png",
+        "title_ua": "Кендер",
+        "title_en": "Kender"
+    },
+    {
+        "racePage": "Раси/Kenku.html",
+        "img": "../img/Kenku_crt.png",
+        "title_ua": "Кенку",
+        "title_en": "Kenku"
+    },
+    {
+        "racePage": "Раси/Centaur.html",
+        "img": "../img/Centaur_crt.png",
+        "title_ua": "Кентавр",
+        "title_en": "Centaur"
+    },
+    {
+        "racePage": "Раси/Kobold.html",
+        "img": "../img/Kobold_crt.png",
+        "title_ua": "Кобольд",
+        "title_en": "Kobold"
+    },
+    {
+        "racePage": "Раси/Kor.html",
+        "img": "../img/Kor_crt.png",
+        "title_ua": "Кор",
+        "title_en": "Kor"
+    },
+    {
+        "racePage": "Раси/Leonin.html",
+        "img": "../img/Leonin_crt.png",
+        "title_ua": "Леонін",
+        "title_en": "Leonin"
+    },
+    {
+        "racePage": "Раси/Lizardfolk.html",
+        "img": "../img/Lizardfolk_crt.png",
+        "title_ua": "Лізардфолк",
+        "title_en": "Lizardfolk"
+    },
+    {
+        "racePage": "Раси/Locathah.html",
+        "img": "../img/Locathah_crt.png",
+        "title_ua": "Локата",
+        "title_en": "Locathah"
+    },
+    {
+        "racePage": "Раси/Loxodon.html",
+        "img": "../img/Loxodon_crt.png",
+        "title_ua": "Локсодон",
+        "title_en": "Loxodon"
+    },
+    {
+        "racePage": "Раси/Human.html",
+        "img": "../img/Human_crt.png",
+        "title_ua": "Людина",
+        "title_en": "Human"
+    },
+    {
+        "racePage": "Раси/Merfolk.html",
+        "img": "../img/Merfolk_crt.png",
+        "title_ua": "Мерфолк",
+        "title_en": "Merfolk"
+    },
+    {
+        "racePage": "Раси/Minotaur.html",
+        "img": "../img/Minotaur_crt.png",
+        "title_ua": "Мінотавр",
+        "title_en": "Minotaur"
+    },
+    {
+        "racePage": "Раси/Naga.html",
+        "img": "../img/Naga_crt.png",
+        "title_ua": "Нага",
+        "title_en": "Naga"
+    },
+    {
+        "racePage": "Раси/Half-Elf.html",
+        "img": "../img/Half-Elf_crt.png",
+        "title_ua": "Напівельф",
+        "title_en": "Half-Elf"
+    },
+    {
+        "racePage": "Раси/Half-Orc.html",
+        "img": "../img/Half-Orc_crt.png",
+        "title_ua": "Напіворк",
+        "title_en": "Half-Orc"
+    },
+    {
+        "racePage": "Раси/Halfling.html",
+        "img": "../img/Halfling_crt.png",
+        "title_ua": "Напіврослик",
+        "title_en": "Halfling"
+    },
+    {
+        "racePage": "Раси/Owlin.html",
+        "img": "../img/Owlin_crt.png",
+        "title_ua": "Овлін",
+        "title_en": "Owlin"
+    },
+    {
+        "racePage": "Раси/Orc.html",
+        "img": "../img/Orc_crt.png",
+        "title_ua": "Орк",
+        "title_en": "Orc"
+    },
+    {
+        "racePage": "Раси/Plasmoid.html",
+        "img": "../img/Plasmoid_crt.png",
+        "title_ua": "Плазмоїд",
+        "title_en": "Plasmoid"
+    },
+    {
+        "racePage": "Раси/Hexblood.html",
+        "img": "../img/Hexblood_crt.png",
+        "title_ua": "Плюндрокровні",
+        "title_en": "Hexblood"
+    },
+    {
+        "racePage": "Раси/Revenant.html",
+        "img": "../img/Revenant_crt.png",
+        "title_ua": "Ревенант",
+        "title_en": "Revenant"
+    },
+    {
+        "racePage": "Раси/Satyr.html",
+        "img": "../img/Satyr_crt.png",
+        "title_ua": "Сатир",
+        "title_en": "Satyr"
+    },
+    {
+        "racePage": "Раси/Siren.html",
+        "img": "../img/Siren_crt.png",
+        "title_ua": "Сирена",
+        "title_en": "Siren"
+    },
+    {
+        "racePage": "Раси/Tabaxi.html",
+        "img": "../img/Tabaxi_crt.png",
+        "title_ua": "Табаксі",
+        "title_en": "Tabaxi"
+    },
+    {
+        "racePage": "Раси/Tiefling.html",
+        "img": "../img/Tiefling_crt.png",
+        "title_ua": "Тифлінг",
+        "title_en": "Tiefling"
+    },
+    {
+        "racePage": "Раси/Thri-kreen.html",
+        "img": "../img/Thri-kreen_crt.png",
+        "title_ua": "Три-крін",
+        "title_en": "Thri-kreen"
+    },
+    {
+        "racePage": "Раси/Triton.html",
+        "img": "../img/Triton_crt.png",
+        "title_ua": "Тритон",
+        "title_en": "Triton"
+    },
+    {
+        "racePage": "Раси/Fairy.html",
+        "img": "../img/Fairy_crt.png",
+        "title_ua": "Фея",
+        "title_en": "Fairy"
+    },
+    {
+        "racePage": "Раси/Firbolg.html",
+        "img": "../img/Firbolg_crt.png",
+        "title_ua": "Фірболг",
+        "title_en": "Firbolg"
+    },
+    {
+        "racePage": "Раси/Hadozee.html",
+        "img": "../img/Hadozee_crt.png",
+        "title_ua": "Хадозі",
+        "title_en": "Hadozee"
+    },
+    {
+        "racePage": "Раси/Harengon.html",
+        "img": "../img/Harengon_crt.png",
+        "title_ua": "Харенгон",
+        "title_en": "Harengon"
+    },
+    {
+        "racePage": "Раси/Khenra.html",
+        "img": "../img/Khenra_crt.png",
+        "title_ua": "Хенра",
+        "title_en": "Khenra"
+    },
+    {
+        "racePage": "Раси/Hobgoblin.html",
+        "img": "../img/Hobgoblin_crt.png",
+        "title_ua": "Хобгоблін",
+        "title_en": "Hobgoblin"
+    },
+    {
+        "racePage": "Раси/Tortle.html",
+        "img": "../img/Tortle_crt.png",
+        "title_ua": "Черепахоїд",
+        "title_en": "Tortle"
+    },
+    {
+        "racePage": "Раси/Yuan-ti.html",
+        "img": "../img/Yuan-ti_crt.png",
+        "title_ua": "Юань-ті",
+        "title_en": "Yuan-ti"
+    }
+]
