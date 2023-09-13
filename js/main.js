@@ -1,11 +1,11 @@
 
 (async () => {
-	const headerResponse = await fetch('/hf/header.html');
+	const headerResponse = await fetch('/tavern/header.html');
     const headerText = await headerResponse.text();
 	const headerPlaceholser = document.querySelector('.headerPlaceholder')
 	if (headerPlaceholser) headerPlaceholser.innerHTML = headerText;
      else {
-        const alternativeHeaderResponse = await fetch('/hf/header1.html');
+        const alternativeHeaderResponse = await fetch('/tavern/header1.html');
         const alternativeHeaderText = await alternativeHeaderResponse.text();
         const alternativeHeaderPlaceholder = document.querySelector('.headerPlaceholder1');
         if (alternativeHeaderPlaceholder) {
@@ -15,7 +15,7 @@
 	addHeaderHandlers()
 
 
-    const footerResponse = await fetch('/hf/footer.html');
+    const footerResponse = await fetch('/tavern/footer.html');
     const footerText = await footerResponse.text();
 	const footerPlaceholder = document.querySelector('.footerPlaceholder')
 	if (footerPlaceholder) footerPlaceholder.innerHTML = footerText;
