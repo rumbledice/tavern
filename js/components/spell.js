@@ -1,6 +1,6 @@
 'use strict';
 
-const spellDataPath = 'tavern/data/Закляття.json'
+const spellDataPath = '../../data/Закляття.json'
 
 class SpeelList extends React.Component {
     constructor(props) {
