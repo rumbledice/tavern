@@ -1215,6 +1215,21 @@ a.tikk:hover span {
   text-align: left;
 }
 
+.nzdbt{
+  transform: rotate(90deg);
+}
+
+.nzdbts{
+
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 80%;
+  right: 5%;
+  width: 15%;
+  padding-top: 15px;
+  z-index: 150;
+}
 
 
 
