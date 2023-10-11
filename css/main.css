@@ -414,6 +414,10 @@ summary::marker {
   font-weight: 600;
 }
 
+.cartor:hover {
+  background-color: #98E8C1;
+  }
+
 .cartor{
   width: 200px;
   height: 60px;
@@ -1177,6 +1181,39 @@ input[type=number]::-webkit-outer-spin-button {
   background-color: #7bade2;
 }*/
 
+.tbcls{
+  color: #000;
+}
+
+.tbclss{
+  color: #5049CC
+  
+}
+
+a.tikk span {
+  display: none;
+}
+a.tikk:hover {
+    position: relative
+}
+
+a.tikk:hover span {
+  border: #c0c0c0 1px dotted;
+  padding: 5px 20px 5px 5px;
+  display: block;
+  z-index: 100;
+  left: 20%;
+  margin-top: 10%;
+  width: 60%;
+  max-height: 80%;
+  overflow: scroll;
+  position: fixed;
+  top: 10px;
+  color: #000;
+  background: #fff;
+  box-shadow: 0px 0px 10px #000000, -5px -5px 0px #26CEAA, 5px 5px 0px #5049CC;
+  text-align: left;
+}
 
 
 
