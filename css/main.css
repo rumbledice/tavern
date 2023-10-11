@@ -1649,7 +1649,9 @@ margin:0 auto;
   width: 180px;
 }
 
-.topic_text .parar .tablinks .nar{
+.topic_text .parar .tablinks .nar {
+  display: none;
+}{
   font-size: 10px;
 }
 
