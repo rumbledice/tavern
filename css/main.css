@@ -1239,7 +1239,10 @@ a.tikk:hover span {
 .searchable{
  background-position: right center;
   background-size: cover;
-  cursor: pointer;}
+  cursor: pointer;
+  background-size: cover;   
+  background-repeat: no-repeat;  
+}
 
 .searchable:hover {
    background-size: 110%;
