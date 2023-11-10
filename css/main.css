@@ -1236,9 +1236,15 @@ a.tikk:hover span {
   margin-top: 14%;
 }
 
+.searchable{
+ background-position: right center;
+  background-size: cover;
+  cursor: pointer;}
 
-
-
+.searchable:hover {
+   background-size: 110%;
+  transition: background-size 0.3s ease-in-out;
+}
 
 
 
