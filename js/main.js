@@ -19,7 +19,21 @@
     const footerText = await footerResponse.text();
 	const footerPlaceholder = document.querySelector('.footerPlaceholder')
 	if (footerPlaceholder) footerPlaceholder.innerHTML = footerText;
-
+	 else {
+    const alternativeFooterResponse = await fetch('/tavern/footer1.html');
+    const alternativeFooterText = await alternativeFooterResponse.text();
+    const alternativeFooterPlaceholder = document.querySelector('.footerPlaceholder1');
+    if (alternativeFooterPlaceholder) {
+      alternativeFooterPlaceholder.innerHTML = alternativeFooterText;
+    } else {
+      const alternativeFooter2Response = await fetch('/tavern/footer2.html');
+      const alternativeFooterText2 = await alternativeFooter2Response.text();
+      const alternativeFooterPlaceholder2 = document.querySelector('.footerPlaceholder2');
+      if (alternativeFooterPlaceholder2) {
+        alternativeFooterPlaceholder2.innerHTML = alternativeFooterText2;
+      }
+    }
+  }
 })();
 
 function addHeaderHandlers() {
